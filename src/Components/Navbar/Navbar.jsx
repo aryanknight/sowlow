@@ -15,7 +15,7 @@ export default function Navbar() {
                         <div className="nav-item">Features</div>
                         <div className="nav-item">Roadmap</div>
                     </div>
-                    <div className="navbar-menu">
+                    {/* <div className="navbar-menu">
                         <div className="nav-icons">
                             <img src={Twitter} className="nav-icon"/> 
                         </div>  
@@ -25,7 +25,7 @@ export default function Navbar() {
                         <div className="nav-icons">
                             <img src={Twitter} className="nav-icon"/> 
                         </div>                
-                    </div>
+                    </div> */}
                 </div>
             </div>
     )
