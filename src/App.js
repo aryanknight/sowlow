@@ -2,6 +2,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Intro from './Components/Intro/Intro';
 import Overview from './Components/Overview/Overview';
 import How from './Components/How/How';
+import Features from './Components/Features/Features';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Intro/>
         <Overview/>
         <How/>
+        <Features/>
       </div>
     </div>
   );
