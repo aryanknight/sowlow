@@ -1,5 +1,6 @@
 import Navbar from './Components/Navbar/Navbar';
 import Intro from './Components/Intro/Intro';
+import Overview from './Components/Overview/Overview';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className="container-large">
         <Navbar/>
         <Intro/>
+        <Overview/>
       </div>
     </div>
   );

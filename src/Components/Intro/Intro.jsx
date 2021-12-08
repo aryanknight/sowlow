@@ -1,4 +1,5 @@
 import React from 'react';
+import LandingImg from '../../Images/sowlowlanding.png'
 import "./Intro.css";
 
 export default function Intro() {
@@ -19,7 +20,7 @@ export default function Intro() {
                 </div>
             </div>
             <div className="intro-right">
-
+                <img src={LandingImg} id="landing-img"/>
             </div>
             </div>
         </div>
