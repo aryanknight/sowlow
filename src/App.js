@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar/Navbar';
 import Intro from './Components/Intro/Intro';
 import Overview from './Components/Overview/Overview';
+import How from './Components/How/How';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Navbar/>
         <Intro/>
         <Overview/>
+        <How/>
       </div>
     </div>
   );

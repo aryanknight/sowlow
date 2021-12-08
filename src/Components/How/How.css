@@ -1,0 +1,43 @@
+.how-cont{
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf5ff;
+}
+
+.how{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.cards{
+    background-color: white;
+    border-radius: 5px;
+    width: 40%;
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
+    margin-top: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+}
+
+.card-title{
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+}
+.card-para{
+    width: 100%;
+    text-align: center;
+    color: #818992;
+}
