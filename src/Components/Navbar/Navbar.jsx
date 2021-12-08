@@ -4,7 +4,20 @@ import Twitter from '../../Images/twitter.png'
 import "./Navbar.css";
 
 export default function Navbar() {
+    
+    window.addEventListener("scroll",function(){
+        const nav=document.getElementsByClassName("navbar-cont")[0];
+        if(window.scrollY>0){
+            nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
+            nav.style.backgroundColor="#ffffff";
+        }else{
+            nav.style.boxShadow="none";
+            nav.style.backgroundColor="#ffffff00";
+        }
+    });
+
     return (
+        <div className="navbar-cont">
             <div className="container-medium">
                 <div className="navbar">
                     <div className="navbar-logo">
@@ -28,5 +41,6 @@ export default function Navbar() {
                     </div> */}
                 </div>
             </div>
+        </div>    
     )
 }
