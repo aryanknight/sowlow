@@ -4,6 +4,8 @@ import Blockchain from '../../Images/blockchain.png';
 import Global from '../../Images/global.png';
 import Transparency from '../../Images/transparency.png';
 import Value from '../../Images/highvalueproducts.png'; 
+import Triangle from '../../Images/triangle.png';
+import Shape5 from '../../Images/shape-5.png';
 import "./Overview.css";
 
 export default function Overview() {
@@ -12,13 +14,14 @@ export default function Overview() {
             <div className="overview">
                 
                 <div className="overview-left">
+                <img src={Shape5} id="overview-shape-5"/>
                     <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." />
                     <Cards imgSrc={Value} title="High Value Products" para="Availability of a wide range of highly valuable products." />
                     <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
                     <Cards imgSrc={Transparency} title="Transparency" para="Complete transparency of auction results and accessible to everyone." />
-                    
                 </div>
                 <div className="overview-right">
+                    <img src={Triangle} id="overview-tri"/>
                 <div className="main-title">
                     Overview
                 </div>
