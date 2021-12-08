@@ -10,9 +10,7 @@ export default function Overview() {
     return (
         <div className="container-medium">
             <div className="overview">
-                <div className="main-title">
-                    Overview
-                </div>
+                
                 <div className="overview-left">
                     <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." />
                     <Cards imgSrc={Value} title="High Value Products" para="Availability of a wide range of highly valuable products." />
@@ -21,6 +19,9 @@ export default function Overview() {
                     
                 </div>
                 <div className="overview-right">
+                <div className="main-title">
+                    Overview
+                </div>
                     <div className="overview-text">
                         <div className="overview-para">SOWLOW Is a blockchain website that auctions based on lowest unique bid. Unlike your regular auction websites where highest bidder wins, SOWLOW rewards you for being the lowest-unique bidder at the end of every auction.</div>
                         <div className="overview-para">With SOWLOW, you can bid for valuable products/goods from wherever you are in the world. This simply means that distance is not a barrier.</div>
