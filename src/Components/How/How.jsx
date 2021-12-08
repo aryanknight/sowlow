@@ -1,10 +1,12 @@
 import React from 'react';
 import Cards from './Cards';
+import Dash from '../../Images/Dash.png';
 import "./How.css";
 
 export default function How() {
     return (
         <div className="how-cont">
+            <img src={Dash} id="how-dash" />
             <div className="container-medium">
                 <div className="main-title">
                     How It Works ?

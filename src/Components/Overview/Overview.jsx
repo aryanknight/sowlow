@@ -14,7 +14,7 @@ export default function Overview() {
             <div className="overview">
                 
                 <div className="overview-left">
-                <img src={Shape5} id="overview-shape-5"/>
+                    <img src={Shape5} id="overview-shape-5"/>
                     <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." />
                     <Cards imgSrc={Value} title="High Value Products" para="Availability of a wide range of highly valuable products." />
                     <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
