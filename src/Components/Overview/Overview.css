@@ -14,7 +14,7 @@
     width: 50%;
     /* background-color: cadetblue; */
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 
 .overview-right{
