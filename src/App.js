@@ -4,6 +4,7 @@ import Overview from './Components/Overview/Overview';
 import How from './Components/How/How';
 import Features from './Components/Features/Features';
 import Roadmap from './Components/Roadmap/Roadmap';
+import Team from './Components/Team/Team';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <How/>
         <Features/>
         <Roadmap/>
+        <Team/>
       </div>
     </div>
   );

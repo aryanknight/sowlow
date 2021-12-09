@@ -148,3 +148,75 @@
     360deg);
     }
 }
+
+@media (max-width:1400px){
+    .intro-head{
+        width: 100%;
+        max-width: 100%;
+    }   
+}
+
+@media (max-width:900px){
+    .intro-head{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .intro{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .intro-left{
+        width: 100%;
+    }
+
+    .intro-right{
+        width: 100%;
+    }
+
+    .intro-head{
+        font-size: 1.5rem;
+    }
+    
+    .intro-text{
+        font-size: 16px;
+    }
+
+    .intro-button{
+        padding: 0.5rem;
+        font-size: 16px;
+        margin-top: 22px;
+    }
+    
+    #landing-img{
+        width: 90%;
+    }
+
+    #intro-sha-1{
+        position: absolute;
+        left: 2%;
+        width: 20%;
+        top:20%;
+        animation: movebounce 5s linear infinite;
+    }
+    
+    #intro-sha-2{
+        position: absolute;
+        right: 2%;
+        width: 20%;
+        top:15%;
+        animation: movebounce 5s linear infinite;
+    }
+    
+    #intro-sha-3{
+        display: none;
+    }
+    
+    #intro-sha-4{
+        position: absolute;
+        right: -1%;
+        bottom:-2%;
+        animation: movebounce 5s linear infinite;
+    }
+}

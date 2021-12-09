@@ -21,10 +21,10 @@ export default function Intro() {
                 <div className="intro-left">
                     <div style={{padding:'1rem',width:'100%'}}>
                         <div className="intro-head">
-                            Grow you business startup system better
+                            Bid now and win with SOWLOW.
                         </div>
                         <div className="intro-text">
-                            Our passion to work hard and deliver excellent results. It could solve the needs of your customers and develop innovation.
+                            A blockchain based auction platform that rewards you for being the lowest unique bidder. 
                         </div>
                         <button className="intro-button">
                             GET STARTED

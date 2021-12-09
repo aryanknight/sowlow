@@ -12,7 +12,7 @@
 #roadmap-circle{
     position: absolute;
     right: -30%;
-    top:10%;
+    top:-20%;
 }
 
 #roadmap-shape-3{
@@ -70,4 +70,27 @@
     width: 100%;
     text-align: center;
     color: #818992;
+}
+
+@media (max-width:900px){
+    #roadmap-circle{
+        position: absolute;
+        right: -50%;
+        top:5%;
+        width: 100%;
+    }
+
+    .roadmap-cards{
+        width: 80%;
+       
+    }
+
+    #roadmap-shape-3{
+        display: none;
+    }
+
+    #roadmap-shape-5{
+        top: 40%;
+        left: 0%;
+    }
 }
