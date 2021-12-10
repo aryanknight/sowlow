@@ -5,7 +5,7 @@ import './Team.css';
 
 export default function Team() {
     return (
-        <div className="team-cont">
+        <div className="team-cont" id="team">
             <div className="container-medium">
                 <div className="main-title" style={{marginTop:"20px"}}>
                     Our Smart Team

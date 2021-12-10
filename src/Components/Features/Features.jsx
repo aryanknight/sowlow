@@ -10,7 +10,7 @@ import './Features.css';
 
 export default function Features() {
     return (
-        <div className="features-cont">
+        <div className="features-cont" id="features">
             <img src={Shape1} id="features-sha-1" />
             <img src={Shape6} id="features-sha-2" />
             <img src={Triangle} id="features-tri"/>

@@ -20,6 +20,14 @@
     width: 15vmin;
 }
 
+#sm-nav{
+    display: none;
+}
+
+#lg-nav{
+    display: flex;
+}
+
 .navbar-menu{
     display: flex;
 }
@@ -36,6 +44,24 @@
     color: black;
 }
 
+.sm-navbar-menu{
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sm-nav-item{
+    font-size: 18px;
+    color:#716c80;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-bottom: 1px solid #818992;
+    border-top: 1px solid #818992;
+    background-color: white;
+}
+
 .nav-icons{
     width: 5vmin;
     margin-right: 10px;
@@ -43,4 +69,55 @@
 
 .nav-icon{
     width: 100%;
+}
+
+a:link, a:visited{
+    color: #818992;
+    text-decoration: none;
+}
+
+.hover-menu{
+    background-color: #97DBE0;
+    position: fixed;
+    top:50%;
+    left: 20px;
+    transform: translateY(-50%);
+    border-radius: 40px;
+    z-index: 10;
+}
+
+.hover-menu-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.6rem;
+    border-radius: 40px;
+}
+
+.hover-item{
+    margin: 14px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.hover-item:hover{
+    color: rgb(0, 0, 0);
+    transform: scale3d(1.2,1.2,1.2);
+}
+
+@media (max-width:800px){
+    #sm-nav{
+        display: flex;
+    }
+
+    #lg-nav{
+        display: none;
+    }
+}
+
+@media (max-width:750px){
+    .hover-menu{
+        display: none;
+    }
 }

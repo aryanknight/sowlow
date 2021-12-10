@@ -9,7 +9,7 @@ import "./How.css";
 
 export default function How() {
     return (
-        <div className="how-cont">
+        <div className="how-cont" id="how">
             <img src={Dash} id="how-dash" />
             <div className="container-medium">
                 <div className="main-title">
