@@ -38,7 +38,7 @@ export default function NavbarSmall() {
                 </div>
                 <div className="sm-navbar-menu" id="bn">
                         <div className="sm-nav-item"><a href='#overview'>Overview</a></div>
-                        <div className="sm-nav-item"><a href='#how'>How</a></div>
+                        <div className="sm-nav-item"><a href='#how'>How It Works</a></div>
                         <div className="sm-nav-item"><a href="#features">Features</a></div>
                         <div className="sm-nav-item"><a href="#roadmap">Roadmap</a></div>
                         {/* <div className="sm-nav-item"><a href="#team">Teams</a></div> */}
