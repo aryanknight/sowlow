@@ -34,17 +34,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: relative;
+}
+
+.roadmap-line{
+    position: absolute;
+    top: 50%;
+    z-index: 0;
 }
 
 .roadmap-cards{
     background-color: white;
     border-radius: 5px;
-    width: 35%;
+    width: 22%;
     padding: 2rem 1rem;
     box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
     margin-top: 40px;
     transition: 0.5s;
     cursor: pointer;
+    position: relative;
+    z-index: 2;
 }
 
 .roadmap-cards:hover{
@@ -83,6 +92,10 @@
     .roadmap-cards{
         width: 80%;
        
+    }
+
+    .roadmap-line{
+        display: none;
     }
 
     #roadmap-shape-3{

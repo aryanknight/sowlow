@@ -10,10 +10,10 @@ export default function Footer() {
                     <div className="footer-left">
                         <img src={Logo} id="footer-logo" />
                         <div className="footer-text">
-                            SOWLOW Is a blockchain website that auctions based on lowest unique bid. Unlike your regular auction websites where highest bidder wins, SOWLOW rewards you for being the lowest-unique bidder at the end of every auction.
+                            SOWLOW Is a blockchain website that auctions based on lowest unique bid. 
                         </div>
                         <div className="copyright-cont" style={{marginTop:'40px'}}>
-                        Copyright @ 2019 Crake. All rights reserved
+                        Copyright @ 2021 SOWLOW. All rights reserved
                         </div>
                     </div>
                     <div className="footer-right">

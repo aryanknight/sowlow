@@ -4,6 +4,7 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 4rem;
     /* background-color: blueviolet; */
 }
 
@@ -49,9 +50,14 @@
     padding: 1rem;
 }
 
+.overview-cards{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+}
 
 .card-cont{
-    width: 45%;
+    width: 100%;
     border-radius: 5px;
     min-height: 305px;
     /* background-color: chocolate; */
@@ -88,6 +94,10 @@
 .card-text{
     color:#818992;
     text-align: center;
+}
+
+#overview-card-1{
+    margin-top: 60px;
 }
 
 @keyframes movebounce
@@ -138,7 +148,7 @@
     }
 
     .card-cont{
-        width: 40%;
+        width: 100%;
         border-radius: 5px;
         min-height: 305px;
         padding: 1rem;
@@ -151,6 +161,10 @@
         text-align: center;
         width: 100%;
         font-size: 18px;
+    }
+
+    #overview-card-1{
+        margin-top: 0px;
     }
     
 }

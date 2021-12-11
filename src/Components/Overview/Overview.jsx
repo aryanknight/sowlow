@@ -15,10 +15,22 @@ export default function Overview() {
                 
                 <div className="overview-left">
                     <img src={Shape5} id="overview-shape-5"/>
-                    <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." />
-                    <Cards imgSrc={Value} title="High Value Products" para="Availability of a wide range of highly valuable products." />
-                    <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
+                    {/* <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." /> */}
+                    <div className='overview-cards' >
+                        <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." />
+                    </div>
+                    <div className='overview-cards' id="overview-card-1" >
+                        <Cards style={{width:'100%'}} imgSrc={Value} title="High Value Products" para="Availability of a wide range of highly valuable products." />
+                    </div>
+                    <div className='overview-cards' >
+                        <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
+                    </div>
+                    <div className='overview-cards' id="overview-card-1" >
                     <Cards imgSrc={Transparency} title="Transparency" para="Complete transparency of auction results and accessible to everyone." />
+                    </div>
+                    
+                    {/* <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
+                    <Cards imgSrc={Transparency} title="Transparency" para="Complete transparency of auction results and accessible to everyone." /> */}
                 </div>
                 <div className="overview-right">
                     <img src={Triangle} id="overview-tri"/>

@@ -22,7 +22,7 @@ function App() {
         <How/>
         <Features/>
         <Roadmap/>
-        <Team/>
+        {/* <Team/> */}
         <Footer/>
       </div>
     </div>

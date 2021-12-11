@@ -7,6 +7,7 @@ import Research from '../../Images/research.png';
 import Circle from '../../Images/circle.png';
 import Shape5 from '../../Images/shape-5.png';
 import Shape3 from '../../Images/shape-3.png';
+import Line from '../../Images/line.png';
 import './Roadmap.css';
 
 export default function Roadmap() {
@@ -20,6 +21,7 @@ export default function Roadmap() {
                     Roadmap
                 </div>
                 <div className="roadmap">
+                    <img src={Line} className='roadmap-line'/>
                     <Cards title="Q4 2021" img={Research} para="Research Market and Product Development"/>
                     <Cards title="Q1 2022" img={Demo} para="Product Demo, Partnerships and Token Generation"/>
                     <Cards title="Q2 2022" img={Launch} para="Products Finalization for Global Reach, Marketing and Product Launch"/>
