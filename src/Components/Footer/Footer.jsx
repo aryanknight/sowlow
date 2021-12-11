@@ -18,7 +18,7 @@ export default function Footer() {
                     </div>
                     <div className="footer-right">
                         <div className="footer-right-cont">
-                            <div className="footer-head" style={{color:'black'}}>
+                            {/* <div className="footer-head" style={{color:'black'}}>
                                 Support
                             </div>
                             <div className="footer-list">
@@ -29,7 +29,7 @@ export default function Footer() {
                                     <li className="footer-list">Item1</li>
                                     <li className="footer-list">Item1</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                         
                     </div>
