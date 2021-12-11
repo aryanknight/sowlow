@@ -15,7 +15,6 @@ export default function Overview() {
                 
                 <div className="overview-left">
                     <img src={Shape5} id="overview-shape-5"/>
-                    {/* <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." /> */}
                     <div className='overview-cards' >
                         <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." />
                     </div>
@@ -26,16 +25,17 @@ export default function Overview() {
                         <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
                     </div>
                     <div className='overview-cards' id="overview-card-1" >
-                    <Cards imgSrc={Transparency} title="Transparency" para="Complete transparency of auction results and accessible to everyone." />
+                        <Cards imgSrc={Transparency} title="Transparency" para="Complete transparency of auction results and accessible to everyone." />
                     </div>
                     
-                    {/* <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
-                    <Cards imgSrc={Transparency} title="Transparency" para="Complete transparency of auction results and accessible to everyone." /> */}
                 </div>
                 <div className="overview-right">
                     <img src={Triangle} id="overview-tri"/>
                 <div className="main-title">
                     Overview
+                    <div className="bar">
+                        <div className="bar-box"></div>
+                    </div>
                 </div>
                     <div className="overview-text">
                         <div className="overview-para">SOWLOW Is a blockchain website that auctions based on lowest unique bid. Unlike your regular auction websites where highest bidder wins, SOWLOW rewards you for being the lowest-unique bidder at the end of every auction.</div>

@@ -17,6 +17,9 @@ export default function Features() {
             <div className="container-medium">
                 <div className="main-title" style={{marginTop:"20px"}}>
                     Features
+                    <div className="bar">
+                        <div className="bar-box"></div>
+                    </div>
                 </div>
                 <div className="feature">
                     <Cards img={Purchase} para="Purchase credits with a $SLW token, which can be used to bid on SOWLOW"/>

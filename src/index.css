@@ -38,6 +38,38 @@
   font-size: 36px;
   font-weight: bold;
   max-height: 12vh;
+  position: relative;
+}
+
+.bar{
+  width: 100px;
+  height: 5px;
+  background-color: #13c4a1;
+  border-radius: 2px;
+  position: absolute;
+  bottom:10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bar-box{
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  animation: movebox 1s linear infinite;
+}
+
+@keyframes movebox
+{
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(50px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
 }
 
 @media(max-width:900px){

@@ -19,6 +19,9 @@ export default function Roadmap() {
             <div className="container-medium">
                 <div className="main-title" style={{marginTop:"20px"}}>
                     Roadmap
+                    <div className="bar">
+                        <div className="bar-box"></div>
+                    </div>
                 </div>
                 <div className="roadmap">
                     <img src={Line} className='roadmap-line'/>

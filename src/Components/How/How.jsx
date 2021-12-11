@@ -14,6 +14,9 @@ export default function How() {
             <div className="container-medium">
                 <div className="main-title">
                     How It Works ?
+                    <div className="bar">
+                        <div className="bar-box"></div>
+                    </div>
                 </div>
                 <div className="how">
                     <Cards img={Step1} title="STEP 1" para="Buy/Exchange $SLW at XYZ exchange or get $SLW directly through P2P" />
