@@ -41,7 +41,7 @@ export default function NavbarSmall() {
                         <div className="sm-nav-item"><a href='#how'>How</a></div>
                         <div className="sm-nav-item"><a href="#features">Features</a></div>
                         <div className="sm-nav-item"><a href="#roadmap">Roadmap</a></div>
-                        <div className="sm-nav-item"><a href="#team">Teams</a></div>
+                        {/* <div className="sm-nav-item"><a href="#team">Teams</a></div> */}
                         <div className="sm-nav-item">
                             <a href="https://google.com" target="_blank">
                                 <Medium className="small-item" style={{width:'20px',height:'20px',marginRight:'16px'}}/>
