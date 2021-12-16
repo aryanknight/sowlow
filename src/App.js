@@ -8,6 +8,7 @@ import Team from './Components/Team/Team';
 import Footer from './Components/Footer/Footer';
 import NavbarSmall from './Components/Navbar/NavbarSmall';
 import HoverMenu from './Components/Navbar/HoverMenu';
+import Tokenomics from './Components/Tokenomics/Tokenomics';
 import './App.css';
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
         <How/>
         <Features/>
         <Roadmap/>
-        {/* <Team/> */}
+        <Tokenomics/>
+        <Team/>
         <Footer/>
       </div>
     </div>

@@ -22,9 +22,9 @@ export default function Features() {
                     </div>
                 </div>
                 <div className="feature">
-                    <Cards img={Purchase} para="Purchase credits with a $SLW token, which can be used to bid on SOWLOW"/>
-                    <Cards img={P2P} para="A P2P marketplace to send and receive credits"/>
-                    <Cards img={Stake} para="Stake $SLW"/>
+                    <Cards img={Purchase} para="$SOLO can be used to bid on SOWLOW"/>
+                    <Cards img={P2P} para="A P2P marketplace to send and receive $SOLO"/>
+                    <Cards img={Stake} para="Stake $SOLO"/>
                 </div>
             </div>
         </div>

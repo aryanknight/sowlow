@@ -1,0 +1,25 @@
+.tokenomics{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 100%;
+}
+
+#chart{
+    width: 70%;
+}
+
+@media(max-width:800px){
+    .tokenomics{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: 100%;
+    }
+    #chart{
+        width: 95%;
+        margin-top: 20%;
+    }
+}

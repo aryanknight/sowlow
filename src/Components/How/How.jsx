@@ -19,10 +19,10 @@ export default function How() {
                     </div>
                 </div>
                 <div className="how">
-                    <Cards img={Step1} title="STEP 1" para="Buy/Exchange $SLW at XYZ exchange or get $SLW directly through P2P" />
-                    <Cards img={Step2} title="STEP 2" para="Purchase credits on SOWLOW using $SLW" />
-                    <Cards img={Step3} title="STEP 3" para="Begin to bid on your favourite products listed on the website" />
-                    <Cards img={Step4} title="STEP 4" para="The winner is announced at the end of the bid. The winner, which is the participant with the lowest unique bid, gets to win the valuable product with a ridiculously low amount." />
+                    <Cards img={Step1} title="STEP 1" para="Buy/Exchange $SOLO at exchange or get $SOLO directly through P2P" />
+                    <Cards img={Step2} title="STEP 2" para="Start bidding on the SOWLOW website using $SOLO" />
+                    <Cards img={Step3} title="STEP 3" para="Begin to bid on BTC or ETH listed on the website" />
+                    <Cards img={Step4} title="STEP 4" para="The winner is announced at the end of the bid. The winner, which is the participant with the lowest unique bid, gets to win the BTC/ETH with a ridiculously low amount." />
                 </div>
             </div>
         </div>
