@@ -29,7 +29,8 @@ export default function Navbar() {
                         <div className="nav-item"><a href='#how'>How It Works</a></div>
                         <div className="nav-item"><a href="#features">Features</a></div>
                         <div className="nav-item"><a href="#roadmap">Roadmap</a></div>
-                        {/* <div className="nav-item"><a href="#team">Teams</a></div> */}
+                        <div className="nav-item"><a href="#team">Teams</a></div>
+                        <div className="nav-item"><a href="#tokenomics">Tokenomics</a></div>
                     </div>
                 </div>
             </div>

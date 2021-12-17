@@ -4,7 +4,7 @@ import './Tokenomics.css';
 
 export default function Tokenomics() {
     return (
-        <div className="features-cont" id="features">
+        <div className="features-cont" id="tokenomics">
             <div className="container-medium">
                 <div className="main-title" style={{marginTop:"20px"}}>
                     Tokenomics
