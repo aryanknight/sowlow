@@ -19,7 +19,7 @@ export default function Overview() {
                         <Cards imgSrc={Blockchain} title="Blockchain Based" para="Blockchain based lowest unique bidding website." />
                     </div>
                     <div className='overview-cards' id="overview-card-1" >
-                        <Cards style={{width:'100%'}} imgSrc={Value} title="High Value Products" para="Availability of a wide range of highly valuable products." />
+                        <Cards style={{width:'100%'}} imgSrc={Value} title="High Value Cryptocurrency" para="Availability of most valuable cryptocurrencies like BTC/ETH to win." />
                     </div>
                     <div className='overview-cards' >
                         <Cards imgSrc={Global} title="Across the Globe" para="Bid and win anywhere from the world. Distance is not a barrier" />
