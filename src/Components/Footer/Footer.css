@@ -1,5 +1,5 @@
 .footer{
-    min-height: 80vh;
+    min-height:60vh;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -21,7 +21,7 @@
 .footer-left{
     display: flex;
     width: 50%;
-    padding-top: 20%;
+    padding-top: 16%;
     align-items: flex-start;
     flex-direction: column;
     padding-left: 1rem;
