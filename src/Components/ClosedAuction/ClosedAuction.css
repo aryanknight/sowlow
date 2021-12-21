@@ -1,0 +1,141 @@
+.close-cont{
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    overflow-y: hidden;
+    background-color: white;
+    overflow-x: hidden;
+}
+.awssld__next{
+    top: 20%;
+}
+.close{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 100%;
+}
+
+.close-card-cont{
+    width: 30%;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auction-card-cont{
+    width: 98%;
+    padding: 1rem 1rem ;
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    border-radius: 14px;
+}
+
+.auction-card-img-cont{
+    width: 100%;
+}
+
+.close-img-cont{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-img{
+    width: 80%;
+    border-radius: 8px;
+}
+
+.auction-img{
+    width: 100%;
+}
+
+.win-cont{
+    width: 100%;
+    padding: 0.5rem 0px;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.win-cont-1{
+    width: 50%;
+}
+
+.win-title{
+    text-align: center;
+    width: 100%;
+}
+
+.win-value{
+    color: #818992;
+    text-align: center;
+    width: 100%;
+}
+
+.auction{
+    width: 100%;
+    display: flex;
+}
+
+
+
+.auction-title{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.auction-price{
+    width: 60%;
+}
+
+.bid-fee{
+    margin-top: 10px;
+}
+
+.price{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fee-img{
+    height: 25px;
+    width: 25px;
+    margin:0px 8px;
+}
+
+.auction-btn{
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgb(223, 98, 89);
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@media(max-width:450px){
+    .close-card-cont{
+        width: 90%;
+        padding: 1rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .close{
+        min-height: 100vh;
+        background-color: yellow;
+    }
+}
