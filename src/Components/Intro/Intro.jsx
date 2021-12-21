@@ -5,6 +5,7 @@ import Shape2 from '../../Images/shape-2.png';
 import Shape3 from '../../Images/shape-3.png';
 import Circle from '../../Images/circle.png';
 import Cross from '../../Images/cross.png';
+import { Link } from 'react-router-dom';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import "./Intro.css";
 
@@ -28,9 +29,11 @@ export default function Intro() {
                             A blockchain based auction platform that rewards you for being the lowest unique bidder. 
                         </div>
                         <div className="intro-button-cont">
-                            <button className="intro-button">
-                                Bid Now
-                            </button>
+                            <Link to="/bidding">
+                                <button className="intro-button">
+                                    Bid Now
+                                </button>
+                            </Link>
                             <button id="how-bid-btn">
                                 How Do I Bid <PlayCircleIcon style={{marginLeft:'10px'}}/>
                             </button>

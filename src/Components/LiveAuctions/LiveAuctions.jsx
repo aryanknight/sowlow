@@ -27,6 +27,18 @@ export default function LiveAuctions() {
                     <div className="live-card-cont">
                         <Cards img={Lap1} />
                     </div>
+                    <div className="live-card-cont">
+                        <Cards img={Lap} />
+                    </div>
+                    <div className="live-card-cont">
+                        <Cards img={Lap} />
+                    </div>
+                    <div className="live-card-cont">
+                        <Cards img={Lap1} />
+                    </div>
+                    <div className="live-card-cont">
+                        <Cards img={Lap1} />
+                    </div>
                 </div>
             </div>
         </div>
