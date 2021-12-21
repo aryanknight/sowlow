@@ -106,6 +106,10 @@ a:link, a:visited{
     transform: scale3d(1.2,1.2,1.2);
 }
 
+.bidding-button-cont{
+    display: flex;
+}
+
 @media (max-width:800px){
     #sm-nav{
         display: flex;

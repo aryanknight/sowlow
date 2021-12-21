@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../Images/logo.png';
+import {Link} from 'react-router-dom';
 import "./Navbar.css";
 
 export default function BiddingNavbar() {
@@ -20,6 +21,16 @@ export default function BiddingNavbar() {
                     <div className="navbar-logo">
                         <img src={Logo} id="nav-logo"/>
                     </div>
+                    <div className="bidding-button-cont">
+                            <Link to="/bidding">
+                                <button className="intro-button">
+                                    Sign Up
+                                </button>
+                            </Link>
+                            <button id="how-bid-btn">
+                                    Login
+                            </button>
+                        </div>
                 </div>
             </div>
         </div>    
