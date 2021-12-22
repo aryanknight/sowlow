@@ -9,6 +9,7 @@ import Twitter from '@mui/icons-material/Twitter';
 
 export default function BiddingSmall() {
 
+    React.useEffect(()=>{
     window.addEventListener("scroll",function(){
         const nav=document.getElementById("sm-nav");
         if(window.scrollY>0){
@@ -19,6 +20,7 @@ export default function BiddingSmall() {
             nav.style.backgroundColor="#ffffff00";
         }
     });
+},[])
 
     return (
         <div className="navbar-cont" id="sm-nav">

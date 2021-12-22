@@ -8,17 +8,18 @@ import Twitter from '@mui/icons-material/Twitter';
 
 export default function NavbarSmall() {
 
-    window.addEventListener("scroll",function(){
-        const nav=document.getElementById("sm-nav");
-        if(window.scrollY>0){
-            nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
-            nav.style.backgroundColor="#ffffff";
-        }else{
-            nav.style.boxShadow="none";
-            nav.style.backgroundColor="#ffffff00";
-        }
-    });
-
+    React.useEffect(()=>{
+        window.addEventListener("scroll",function(){
+            const nav=document.getElementById("sm-nav");
+            if(window.scrollY>0){
+                nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
+                nav.style.backgroundColor="#ffffff";
+            }else{
+                nav.style.boxShadow="none";
+                nav.style.backgroundColor="#ffffff00";
+            }
+        });
+    },[])
     function expand(){
         const a=document.getElementById("bn");
         if (a.style.maxHeight){
@@ -27,6 +28,7 @@ export default function NavbarSmall() {
             a.style.maxHeight = a.scrollHeight + "px";
           } 
     }
+    
     return (
         <div className="navbar-cont" id="sm-nav">
             <div className="container-medium">

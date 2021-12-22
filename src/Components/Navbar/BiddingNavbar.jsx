@@ -4,16 +4,20 @@ import {Link} from 'react-router-dom';
 import "./Navbar.css";
 
 export default function BiddingNavbar() {
-    window.addEventListener("scroll",function(){
-        const nav=document.getElementsByClassName("bid-nav")[0];
-        if(window.scrollY>0){
-            nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
-            nav.style.backgroundColor="#ffffff";
-        }else{
-            nav.style.boxShadow="none";
-            nav.style.backgroundColor="#ffffff00";
-        }
-    });
+
+    React.useEffect(()=>{
+        window.addEventListener("scroll",function(){
+            const nav=document.getElementsByClassName("bid-nav")[0];
+            if(window.scrollY>0){
+                nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
+                nav.style.backgroundColor="#ffffff";
+            }else{
+                nav.style.boxShadow="none";
+                nav.style.backgroundColor="#ffffff00";
+            }
+        });
+    },[])
+    
     return (
         <div className="navbar-cont bid-nav" id="lg-nav">
             <div className="container-medium">
