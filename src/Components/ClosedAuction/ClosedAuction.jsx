@@ -1,8 +1,8 @@
 import React from 'react';
 import Cards from './Cards';
 import Lap from '../../Images/lap.png'
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+import btc from '../../Images/btc1.png';
+import eth from '../../Images/eth2.png';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import './ClosedAuction.css';
@@ -35,12 +35,12 @@ export default function ClosedAuction() {
                 </div>
                 <div className="closed-cara">
                     <Carousel responsive={responsive}>
-                        <Cards img={Lap} />
-                        <Cards img={Lap} />
-                        <Cards img={Lap} />
-                        <Cards img={Lap} />
-                        <Cards img={Lap} />
-                        <Cards img={Lap} />
+                        <Cards img={Lap} price="0.21 BTC" type={btc} price="0.158 ETH" type={eth} />
+                        <Cards img={Lap} price="0.21 BTC" type={btc} price="0.158 ETH" type={eth} />
+                        <Cards img={Lap} price="0.21 BTC" type={btc} price="0.158 ETH" type={eth} />
+                        <Cards img={Lap} price="0.21 BTC" type={btc} price="0.158 ETH" type={eth} />
+                        <Cards img={Lap} price="0.21 BTC" type={btc} price="0.158 ETH" type={eth} />
+                        <Cards img={Lap} price="0.21 BTC" type={btc} price="0.158 ETH" type={eth} />
                     </Carousel>
                 </div>
             </div>

@@ -2,14 +2,14 @@ import React from 'react';
 import btc from '../../Images/btc1.png';
 import closeimg from '../../Images/closeimg.png';
 
-export default function Cards({img}) {
+export default function Cards({img,price,type}) {
     return (
         <div className='close-card-cont'>
             <div className="auction-title">
-                Mac book
+                {price}
             </div>
             <div className="auction-card-img-cont">
-                <img src={img} alt="" className="auction-img" />
+                <img src={type} alt="" className="auction-img" />
             </div>
             <div className="win-cont">
                 <div className="win-cont-1">
@@ -36,7 +36,7 @@ export default function Cards({img}) {
                 <div className="closed-auction-price">
                     <div className="price">
                         <b>Price :</b>
-                        <img src={btc} className='fee-img' />
+                        <img src={type} className='fee-img' />
                         0.021 BTC
                     </div>
                     <div className="bid-fee">
