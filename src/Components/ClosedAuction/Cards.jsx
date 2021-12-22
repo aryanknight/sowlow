@@ -4,7 +4,7 @@ import closeimg from '../../Images/closeimg.png';
 
 export default function Cards({img}) {
     return (
-        <div className='auction-card-cont'>
+        <div className='close-card-cont'>
             <div className="auction-title">
                 Mac book
             </div>
@@ -33,7 +33,7 @@ export default function Cards({img}) {
                 <div className="close-img-cont">
                     <img src={closeimg} className='close-img' />
                 </div>
-                <div className="auction-price">
+                <div className="closed-auction-price">
                     <div className="price">
                         <b>Price :</b>
                         <img src={btc} className='fee-img' />

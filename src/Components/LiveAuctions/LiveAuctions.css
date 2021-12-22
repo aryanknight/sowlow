@@ -98,3 +98,34 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media(max-width:1050px){
+    .live-card-cont{
+        width: 32%;
+    }
+
+    .auction-price{
+        width: 100%;
+    }
+
+    .bid-fee{
+       font-size: 14px;
+    }
+
+    .price{
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .fee-img{
+        height: 15px;
+        width: 15px;
+        margin:0px 8px;
+    }
+}
+
+@media(max-width:700px){
+    .live-card-cont{
+        width: 100%;
+    }
+}
