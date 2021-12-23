@@ -5,6 +5,7 @@ import HoverMenu from '../Components/Navbar/HoverMenu';
 import LiveAuctions from '../Components/LiveAuctions/LiveAuctions';
 import ClosedAuction from '../Components/ClosedAuction/ClosedAuction';
 import BiddingSmall from '../Components/Navbar/BiddingSmall';
+import FAQ from '../Components/FAQ/FAQ';
 
 export default function BiddingPage() {
     return (
@@ -15,6 +16,7 @@ export default function BiddingPage() {
                 <HoverMenu/>
                 <LiveAuctions/>
                 <ClosedAuction/>
+                <FAQ/>
             </div>
         </div>
     )
