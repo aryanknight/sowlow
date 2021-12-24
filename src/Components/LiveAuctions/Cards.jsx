@@ -48,7 +48,7 @@ export default function Cards({img,price,type}) {
                 <div className="price">
                     <b>Price :</b>
                     <img src={type} className='fee-img' />
-                    0.021 BTC
+                    {price}
                 </div>
                 <div className="bid-fee">
                     <b>Bid Fee :</b> 20 $OLO

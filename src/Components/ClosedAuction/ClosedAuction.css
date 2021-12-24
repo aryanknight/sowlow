@@ -29,23 +29,34 @@
     align-items: center;
 } */
 
+.react-multi-carousel-item {
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+}
+
 .close-card-cont{
-    width: 92%;
-    padding: 1rem 1rem ;
+    margin: 20px 10px;
+    width: 80%;
+    padding: 1.5rem 1rem ;
     box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
     border-radius: 14px;
 }
 
 .auction-card-img-cont{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.close-img-cont{
+/* .close-img-cont{
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .close-img{
     width: 80%;
@@ -53,7 +64,7 @@
 }
 
 .auction-img{
-    width: 100%;
+    width: 60%;
 }
 
 .win-cont{
@@ -65,7 +76,8 @@
 }
 
 .win-cont-1{
-    width: 50%;
+    width: 100%;
+    font-size: 20px;
 }
 
 .win-title{
@@ -95,17 +107,18 @@
 }
 
 .closed-auction-price{
-    width: 60%;
+    width: 100%;
 }
 
 .bid-fee{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .price{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .fee-img{
