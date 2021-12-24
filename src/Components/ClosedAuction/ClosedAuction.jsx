@@ -30,7 +30,7 @@ export default function ClosedAuction() {
     return (
         <div className="close-cont" id="close">
             <div className="container-medium ">
-                <div className="main-title abc" style={{marginTop:"14vh",marginBottom:'20px'}}>
+                <div className="main-title abc" style={{marginTop:"4vh",marginBottom:'20px'}}>
                     Recent Closed Auctions
                 </div>
                 <div className="closed-cara">

@@ -68,7 +68,7 @@ export default function Cards({img,price,type,date}) {
                 {price}
             </div>
             <div className="auction-card-img-cont">
-                <img src={type} alt="" className="auction-img" />
+                <img src={type} alt="" className="upcoming-img" />
             </div>
             
             <MyTimer expiryTimestamp={time} />
@@ -80,7 +80,7 @@ export default function Cards({img,price,type,date}) {
                     {price}
                 </div>
                 <div className="bid-fee">
-                    <b>Bid Fee :</b> 20 $OLO
+                    <b>Bid Fee :</b> 20 SOLO
                 </div>
             </div>
         </div>

@@ -40,7 +40,7 @@ export default function Cards({img,price,type}) {
                         {price}
                     </div>
                     <div className="bid-fee">
-                        <b>Bid Fee :</b> 20 $OLO
+                        <b>Bid Fee :</b> 20 SOLO
                     </div>
                 </div>
             </div>

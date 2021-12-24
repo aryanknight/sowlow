@@ -1,5 +1,5 @@
 .close-cont{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -63,9 +63,15 @@
     border-radius: 8px;
 }
 
+
 .auction-img{
     width: 60%;
+    transition: 1s;
 }
+.auction-img:hover{
+    transform: rotate(360deg);
+}
+
 
 .win-cont{
     width: 100%;

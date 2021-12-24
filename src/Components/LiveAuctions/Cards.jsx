@@ -80,7 +80,7 @@ export default function Cards({img,price,type,date}) {
                     {price}
                 </div>
                 <div className="bid-fee">
-                    <b>Bid Fee :</b> 20 $OLO
+                    <b>Bid Fee :</b> 20 SOLO
                 </div>
             </div>
             <div className="auction-btn">

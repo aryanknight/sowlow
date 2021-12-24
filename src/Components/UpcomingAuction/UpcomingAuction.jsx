@@ -31,7 +31,7 @@ export default function UpcomingAuction() {
     return (
         <div className="live-cont" id="live">
             <div className="container-medium">
-                <div className="main-title" style={{marginTop:"18vh"}}>
+                <div className="main-title" style={{marginTop:"4vh",marginBottom:'20px'}}>
                     Upcoming Auctions
                     <div className="bar">
                         <div className="bar-box"></div>

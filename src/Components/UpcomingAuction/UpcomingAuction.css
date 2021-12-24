@@ -1,5 +1,5 @@
 .live-cont{
-    min-height: 110vh;
+    min-height: 80vh;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -38,6 +38,11 @@
 
 .upcoming-img{
     width: 60%;
+    transition: 1s;
+}
+
+.upcoming-img:hover{
+    transform: rotate(360deg);
 }
 
 .timer-cont{
