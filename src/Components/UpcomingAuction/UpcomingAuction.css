@@ -1,0 +1,132 @@
+.live-cont{
+    min-height: 110vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.live{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.react-multi-carousel-item {
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming-card-cont{
+    margin: 20px 10px;
+    width: 80%;
+    padding: 1.5rem 1rem ;
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    border-radius: 14px;
+}
+
+.auction-card-img-cont{
+    width: 100%;
+}
+
+.upcoming-img{
+    width: 60%;
+}
+
+.timer-cont{
+    width: 100%;
+    padding: 0.5rem 0px;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.timer-cont-1{
+    width: 25%;
+}
+
+.timer-title{
+    text-align: center;
+}
+
+.timer-value{
+    color: #818992;
+    text-align: center;
+}
+
+.auction-title{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.auction-price{
+    margin: 10px 0px;
+}
+
+.bid-fee{
+    margin-top: 10px;
+}
+
+.price{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fee-img{
+    height: 25px;
+    width: 25px;
+    margin:0px 8px;
+}
+
+.auction-btn{
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgb(223, 98, 89);
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media(max-width:1050px){
+    .live-card-cont{
+        width: 32%;
+    }
+
+    .auction-price{
+        width: 100%;
+    }
+
+    .bid-fee{
+       font-size: 14px;
+    }
+
+    .price{
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .fee-img{
+        height: 15px;
+        width: 15px;
+        margin:0px 8px;
+    }
+}
+
+@media(max-width:700px){
+    .live-card-cont{
+        width: 100%;
+    }
+}

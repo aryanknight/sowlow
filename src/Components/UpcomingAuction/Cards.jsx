@@ -63,7 +63,7 @@ export default function Cards({img,price,type,date}) {
     var timeDiff = (endDate-startDate)/1000; 
     time.setSeconds(time.getSeconds() + timeDiff);
     return (
-        <div className='auction-card-cont'>
+        <div className='upcoming-card-cont'>
             <div className="auction-title">
                 {price}
             </div>
@@ -82,9 +82,6 @@ export default function Cards({img,price,type,date}) {
                 <div className="bid-fee">
                     <b>Bid Fee :</b> 20 $OLO
                 </div>
-            </div>
-            <div className="auction-btn">
-                BID NOW
             </div>
         </div>
     )
