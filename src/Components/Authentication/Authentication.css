@@ -1,7 +1,6 @@
 .login{
-    height: 100vh;
     margin: 0px;
-    max-height: 100vh;
+    min-height: 100vh;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -23,17 +22,128 @@
 .login-cont{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
     height: 100%;
+    background-color: #f5f6fa;
+}
+
+.login-left{
+    width: 45%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login-right{
+    width: 55%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .login-cont-1{
+    width: 70%;
+    height: 100%;
+    padding-top: 10%;
+    position: relative;
+    /* background-color: violet; */
+}
+
+.login-img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.login-head{
+    font-size: 20px;
+    color: #364a63;
+    width: 80%;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.login-para{
+    width: 80%;
+    font-size: 14px;
+    color: #526484;
+    margin-bottom: 20px;
+}
+
+.login-subhead{
+    width: 80%;
+    font-size: 14px;
+    color: #526484;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-subhead-2{
+    color: #ff8a73;
+    cursor: pointer;
+}
+
+.cred-cont{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.login-btn{
+    background-color: #ff8a73;
+    color: white;
+    width: 80%;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px ;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* box-shadow: 0 13px 27px 0 rgb(163 48 53 / 25%); */
+    transition: 0.5s;
+}
+
+.or{
+    color:#526484;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.or-option{
+    width: 80%;
     display: flex;
     align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-around;
+}
+
+.option{
+    color:#ff8a73 ;
+    cursor: pointer;
+}
+
+.login-copyright{
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: #526484;
+    width: 80%;
+    text-align: center;
+}
+
+.crypto-img{
+    width: 60%;
 }
 
 .login-cont-2{
@@ -79,23 +189,7 @@ input.form-control{
     width: 60%;
 }
 
-.login-btn{
-    background-color: #ff8a73;
-    color: white;
-    width: 30%;
-    padding: 1rem 0rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 26px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    border-radius: 6px ;
-    cursor: pointer;
-    box-shadow: 0 13px 27px 0 rgb(163 48 53 / 25%);
-    transition: 0.5s;
-}
+
 
 .login-btn:hover{
     transform: translateY(-10px);
@@ -103,4 +197,51 @@ input.form-control{
 
 #signup-btn{
     width: 60%;
+}
+
+@media (max-width:850px){
+    .login-left{
+        width: 100%;
+    }
+    
+    .login-right{
+        display: none;
+    }
+
+    .login-cont-1{
+        width: 90%;
+        height: 100%;
+    }
+
+    .login-head{
+        width: 100%;
+    }
+    
+    .login-para{
+        width: 100%;
+    }
+    
+    .login-subhead{
+        width: 100%;
+    }
+
+    .cred-cont{
+        width: 100%;
+    }
+    
+    .login-btn{
+        width: 100%;
+    }
+
+    .or{
+        width: 100%;
+    }
+    
+    .or-option{
+        width: 100%;
+    }
+
+    .login-copyright{
+        display: none;
+    }
 }
