@@ -3,6 +3,7 @@ import TextField from '@mui/material/TextField';
 import Crypto from '../../Images/crypto.png';
 import './Authentication.css';
 import Logo from '../../Images/logo.png';
+import { Link } from 'react-router-dom';
 
 
 export default function Reset() {
@@ -27,7 +28,13 @@ export default function Reset() {
                             Send Reset Link
                         </div>
 
-                        <div className="login-para"><span style={{color:'#ff8a73',cursor:'pointer'}}>Return to Login</span></div>
+                        <div className="login-para">
+                            <Link to="/login">
+                                <span style={{color:'#ff8a73',cursor:'pointer'}}>
+                                    Return to Login
+                                </span>
+                            </Link>
+                        </div>
                         
                     </div>
 

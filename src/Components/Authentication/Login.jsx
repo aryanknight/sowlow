@@ -4,6 +4,7 @@ import Crypto from '../../Images/crypto.png';
 import './Authentication.css';
 import Logo from '../../Images/logo.png';
 import { Checkbox, FormControlLabel } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 // export default function Login() {
 //     return (
@@ -60,7 +61,9 @@ export default function Login() {
                         </div>
                         <div className="login-subhead">
                             <div className="login-subhead-1">Password</div>
-                            <div className="login-subhead-2">Forgot Password?</div>
+                            <Link to="/reset">
+                                <div className="login-subhead-2">Forgot Password?</div>
+                            </Link>
                         </div>
                         <div className="cred-cont">
                             <TextField fullWidth={true} required placeholder="password" label="Password" />
@@ -70,7 +73,11 @@ export default function Login() {
                             Sign in
                         </div>
 
-                        <div className="login-para">New on our platform? <span style={{color:'#ff8a73',cursor:'pointer'}}>Create an account</span></div>
+                        <div className="login-para">New on our platform? 
+                            <Link to="/signup">
+                                <span style={{color:'#ff8a73',cursor:'pointer'}}> Create an account</span>
+                            </Link>
+                        </div>
 
                         <div className="or">OR</div>
 
