@@ -12,7 +12,7 @@ import './Roadmap.css';
 
 export default function Roadmap() {
     return (
-        <div className="roadmap-cont" id="roadmap">
+        <div data-aos="fade-up-left" data-aos-duration="2000" className="roadmap-cont" id="roadmap">
             <img src={Circle} id="roadmap-circle"/>
             <img src={Shape3} id="roadmap-shape-3"/>
             <img src={Shape5} id="roadmap-shape-5"/>

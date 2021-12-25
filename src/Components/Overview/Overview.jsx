@@ -10,7 +10,7 @@ import "./Overview.css";
 
 export default function Overview() {
     return (
-        <div className="container-medium">
+        <div data-aos="fade-up" data-aos-duration="2000" className="container-medium">
             <div className="overview" id="overview">
                 
                 <div className="overview-left">

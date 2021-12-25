@@ -23,7 +23,7 @@ export default function MainPage() {
           <How/>
           <Features/>
           <Roadmap/>
-          <Tokenomics/>
+          {/* <Tokenomics/> */}
           <Team/>
           <Footer/>
         </div>

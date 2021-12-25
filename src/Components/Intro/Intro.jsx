@@ -1,5 +1,5 @@
 import React from 'react';
-import LandingImg from '../../Images/sowlowlanding.png';
+import LandingImg from '../../Images/solobanner1.png';
 import Shape1 from '../../Images/shape-1.png';
 import Shape2 from '../../Images/shape-2.png';
 import Shape3 from '../../Images/shape-3.png';
@@ -21,7 +21,7 @@ export default function Intro() {
             <div className="container-medium">
                 <div className="intro">
                 <div className="intro-left">
-                    <div style={{padding:'1rem',width:'100%'}}>
+                    <div data-aos="fade-up-right" data-aos-duration="2000" style={{padding:'1rem',width:'100%'}}>
                         <div className="intro-head">
                             Bid now and win with SOWLOW.
                         </div>
