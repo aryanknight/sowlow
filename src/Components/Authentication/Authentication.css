@@ -1,0 +1,106 @@
+.login{
+    height: 100vh;
+    margin: 0px;
+    max-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    overflow-y: hidden;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+#login-img{
+    position: absolute;
+    width: 20%;
+    bottom: 0%;
+    right: 0%;
+}
+
+.login-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.login-cont-1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.login-cont-2{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.signup-cont-2{
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    margin-top: 20px;
+}
+
+
+input.form-control{
+    width: 20px;
+}
+.react-tel-input .form-control {
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    padding: 18.5px 14px 18.5px 58px;
+    transition: box-shadow ease .25s,border-color ease .25s;
+}
+.bh{
+    position: absolute;
+    top:-100%;
+}
+.login-cont-3{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#phone-no{
+    width: 60%;
+}
+
+.login-btn{
+    background-color: #ff8a73;
+    color: white;
+    width: 30%;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px ;
+    cursor: pointer;
+    box-shadow: 0 13px 27px 0 rgb(163 48 53 / 25%);
+    transition: 0.5s;
+}
+
+.login-btn:hover{
+    transform: translateY(-10px);
+}
+
+#signup-btn{
+    width: 60%;
+}

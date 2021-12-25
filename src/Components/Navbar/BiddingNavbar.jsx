@@ -30,14 +30,17 @@ export default function BiddingNavbar() {
                         <img src={Logo} id="nav-logo"/>
                     </div>
                     <div className="bidding-button-cont">
-                            <Link to="/bidding">
+                            <Link to="/signup">
                                 <button className="intro-button">
                                     Sign Up
                                 </button>
                             </Link>
-                            <button id="how-bid-btn">
+                            <Link to="/login">
+                                <button id="how-bid-btn">
                                     Login
-                            </button>
+                                </button>
+                            </Link>
+                            
                     </div>
                 </div>
             </div>
