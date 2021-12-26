@@ -6,6 +6,7 @@ import PhoneInput from 'react-phone-input-2';
 import Logo from '../../Images/logo.png';
 import 'react-phone-input-2/lib/material.css'
 import './Authentication.css';
+import { Link } from 'react-router-dom';
 
 // export default function SignupPage() {
 //     return (
@@ -141,6 +142,12 @@ export default function SignupPage() {
 
                         <div className="login-para"> 
                             <Checkbox  size="medium"/> I agree to SOWLOW<span style={{color:'#ff8a73',cursor:'pointer'}}> Privacy & Policy</span>
+                        </div>
+
+                        <div className="login-para">Are you already Registered?
+                            <Link to="/login">
+                                <span style={{color:'#ff8a73',cursor:'pointer'}}> Login</span>
+                            </Link>
                         </div>
 
                         <div className="or">OR</div>
