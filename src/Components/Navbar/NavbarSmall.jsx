@@ -13,11 +13,15 @@ export default function NavbarSmall() {
         window.addEventListener("scroll",function(){
             const nav=document.getElementById("sm-nav");
             if(window.scrollY>0){
-                nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
-                nav.style.backgroundColor="#ffffff";
+                if(nav?.style){
+                    nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
+                    nav.style.backgroundColor="#ffffff";
+                }
             }else{
-                nav.style.boxShadow="none";
-                nav.style.backgroundColor="#ffffff00";
+                if(nav?.style){
+                    nav.style.boxShadow="none";
+                    nav.style.backgroundColor="#ffffff00";
+                }
             }
         });
     },[])
