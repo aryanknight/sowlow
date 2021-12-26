@@ -8,7 +8,7 @@ export default function FAQ() {
         <div className='faq'>
             <div className="container-medium">
                 <div className="faq-cont">
-                    <div className="main-title abc" style={{marginTop:"4vh",marginBottom:'20px'}}>
+                    <div className="main-title abc" style={{marginTop:"14vh",marginBottom:'20px'}}>
                         FAQ
                         <div className="bar">
                             <div className="bar-box"></div>

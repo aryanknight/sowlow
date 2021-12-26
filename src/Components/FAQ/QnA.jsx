@@ -1,5 +1,6 @@
 import React from 'react';
 import Addbtn from '../../Images/btc1.png';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 export default function QnA({question,answer,no}) {
 
@@ -12,7 +13,7 @@ export default function QnA({question,answer,no}) {
             circle.style.transform = 'rotate(0deg)';
             ans.style.maxHeight= null;
         }else{
-            circle.style.transform = 'rotate(135deg)';
+            circle.style.transform = 'rotate(180deg)';
             ans.style.maxHeight=ans.scrollHeight + "px";  
             for (var i=0;i<allAns.length;i++){
                 if(i!=no){
@@ -26,7 +27,7 @@ export default function QnA({question,answer,no}) {
         <div className="faq-ques-ans" >
             <div className="faq-question" onClick={expandAns}>
                 {question}
-                <img src={Addbtn} className="add-circle" />
+                <ArrowDownwardIcon className="add-circle"/>
             </div>
             <div className="faq-ans">
                 {answer}

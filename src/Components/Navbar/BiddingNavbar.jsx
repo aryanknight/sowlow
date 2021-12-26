@@ -27,7 +27,9 @@ export default function BiddingNavbar() {
             <div className="container-medium">
                 <div className="navbar">
                     <div className="navbar-logo">
-                        <img src={Logo} id="nav-logo"/>
+                        <Link to="/">
+                            <img src={Logo} id="nav-logo"/>
+                        </Link>
                     </div>
                     <div className="bidding-button-cont">
                             <Link to="/signup">

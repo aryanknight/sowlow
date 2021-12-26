@@ -13,11 +13,15 @@ export default function BiddingSmall() {
     window.addEventListener("scroll",function(){
         const nav=document.getElementById("sm-nav");
         if(window.scrollY>0){
-            nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
-            nav.style.backgroundColor="#ffffff";
+            if(nav?.style){
+                nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
+                nav.style.backgroundColor="#ffffff";
+            }
         }else{
-            nav.style.boxShadow="none";
-            nav.style.backgroundColor="#ffffff00";
+            if(nav?.style){
+                nav.style.boxShadow="none";
+                nav.style.backgroundColor="#ffffff00";
+            }
         }
     });
 },[])
@@ -27,17 +31,21 @@ export default function BiddingSmall() {
             <div className="container-medium">
                 <div className="navbar">
                     <div className="navbar-logo">
-                        <img src={Logo} id="nav-logo"/>
+                        <Link to="/">
+                            <img src={Logo} id="nav-logo"/>
+                        </Link>
                     </div>
                     <div className="bidding-button-cont">
-                            <Link to="/">
+                            <Link to="/signup">
                                 <button className="intro-button">
                                     Sign Up
                                 </button>
                             </Link>
-                            <button id="how-bid-btn">
-                                    Login
-                            </button>
+                            <Link to="/login">
+                                <button id="how-bid-btn">
+                                        Login
+                                </button>
+                            </Link>
                     </div>
                 </div>
             </div>

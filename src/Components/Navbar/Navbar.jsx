@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../../Images/logo.png';
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -23,7 +24,9 @@ export default function Navbar() {
             <div className="container-medium">
                 <div className="navbar">
                     <div className="navbar-logo">
-                        <img src={Logo} id="nav-logo"/>
+                        <Link to="/">
+                            <img src={Logo} id="nav-logo"/>
+                        </Link>
                     </div>
                     <div className="navbar-menu">
                         <div className="nav-item"><a href='#overview'>Overview</a></div>

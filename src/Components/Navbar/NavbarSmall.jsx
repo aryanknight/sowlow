@@ -5,6 +5,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import { ReactComponent as Medium } from '../../Images/medium.svg';
 import { ReactComponent as Discord } from '../../Images/discord.svg';
 import Twitter from '@mui/icons-material/Twitter';
+import { Link } from 'react-router-dom';
 
 export default function NavbarSmall() {
 
@@ -34,7 +35,9 @@ export default function NavbarSmall() {
             <div className="container-medium">
                 <div className="navbar">
                     <div className="navbar-logo">
-                        <img src={Logo} id="nav-logo"/>
+                        <Link to="/">
+                            <img src={Logo} id="nav-logo"/>
+                        </Link>
                     </div>
                     <MenuIcon onClick={expand}/>
                 </div>

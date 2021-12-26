@@ -1,10 +1,11 @@
 import { Routes, Route} from "react-router-dom";
 import MainPage from './Pages/MainPage';
 import BiddingPage from "./Pages/BiddingPage";
-import './App.css';
 import LoginPage from "./Pages/LoginPage";
 import SignupPage from "./Components/Authentication/SignUp";
 import ResetPage from "./Pages/ResetPage";
+import FAQPage from "./Pages/FAQPage";
+import './App.css';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/login" element={<LoginPage/>} />
       <Route exact path="/signup" element={<SignupPage/>} />
       <Route exact path="/reset" element={<ResetPage/>} />
+      <Route exact path="/faq" element={<FAQPage/>} />
     </Routes>  
     
   );
