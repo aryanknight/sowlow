@@ -12,6 +12,10 @@ import HoverMenu from '../Components/Navbar/HoverMenu';
 import Tokenomics from '../Components/Tokenomics/Tokenomics';
 
 export default function MainPage() {
+
+    React.useEffect(()=>{
+      document.documentElement.scrollTop = 0;
+    },[])
     return (
     <div className="App">
         <div className="container-large">

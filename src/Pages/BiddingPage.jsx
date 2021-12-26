@@ -9,6 +9,9 @@ import FAQ from '../Components/FAQ/FAQ';
 import UpcomingAuction from '../Components/UpcomingAuction/UpcomingAuction';
 
 export default function BiddingPage() {
+    React.useEffect(()=>{
+        document.documentElement.scrollTop = 0;
+      },[])
     return (
         <div className="App">
             <div className="container-large" style={{paddingBottom:'2rem'}}>

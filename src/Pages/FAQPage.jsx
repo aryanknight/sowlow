@@ -5,6 +5,9 @@ import BiddingNavbar from '../Components/Navbar/BiddingNavbar'
 import BiddingSmall from '../Components/Navbar/BiddingSmall'
 
 export default function FAQPage() {
+    React.useEffect(()=>{
+        document.documentElement.scrollTop = 0;
+      },[])
     return (
         <div className="App">
             <div className="container-large" >
