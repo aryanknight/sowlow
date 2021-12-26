@@ -57,7 +57,7 @@ export default function Login() {
                         
                         <div className="login-subhead">Email or Username</div>
                         <div className="cred-cont">
-                            <TextField fullWidth={true} required placeholder="youremail@gmail.com" label="Email Or Username" />
+                            <TextField fullWidth={true} required placeholder="youremail@gmail.com"/>
                         </div>
                         <div className="login-subhead">
                             <div className="login-subhead-1">Password</div>
@@ -66,7 +66,7 @@ export default function Login() {
                             </Link>
                         </div>
                         <div className="cred-cont">
-                            <TextField fullWidth={true} required placeholder="password" label="Password" />
+                            <TextField fullWidth={true} required placeholder="password"/>
                         </div>
 
                         <div className="login-btn">
