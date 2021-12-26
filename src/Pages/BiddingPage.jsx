@@ -5,8 +5,8 @@ import HoverMenu from '../Components/Navbar/HoverMenu';
 import LiveAuctions from '../Components/LiveAuctions/LiveAuctions';
 import ClosedAuction from '../Components/ClosedAuction/ClosedAuction';
 import BiddingSmall from '../Components/Navbar/BiddingSmall';
-import FAQ from '../Components/FAQ/FAQ';
 import UpcomingAuction from '../Components/UpcomingAuction/UpcomingAuction';
+import {Footer1} from '../Components/Footer/Footer';
 
 export default function BiddingPage() {
     React.useEffect(()=>{
@@ -14,14 +14,14 @@ export default function BiddingPage() {
       },[])
     return (
         <div className="App">
-            <div className="container-large" style={{paddingBottom:'2rem'}}>
+            <div className="container-large">
                 <BiddingNavbar/>
                 <BiddingSmall/>
                 <HoverMenu/>
                 <LiveAuctions/>
                 <UpcomingAuction/>
                 <ClosedAuction/>
-                <FAQ/>
+                <Footer1/>
             </div>
         </div>
     )
