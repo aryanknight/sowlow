@@ -73,6 +73,9 @@ export function Footer1() {
                                     <Link to="/faq">
                                         <li className="footer-list">FAQ</li>
                                     </Link>
+                                    <Link to="/bidding">
+                                        <li className="footer-list">Bidding Page</li>
+                                    </Link>
                                     <Link to="/login">
                                         <li className="footer-list">Login</li>
                                     </Link>
