@@ -31,9 +31,11 @@ export default function Login() {
                             <TextField fullWidth={true} required placeholder="password"/>
                         </div>
 
-                        <div className="login-btn">
-                            Sign in
-                        </div>
+                        <Link to="/user-panel">
+                            <div className="login-btn">
+                                Sign in
+                            </div>
+                        </Link>
 
                         <div className="login-para">New on our platform? 
                             <Link to="/signup">
