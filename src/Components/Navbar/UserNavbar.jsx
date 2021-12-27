@@ -10,20 +10,11 @@ import ArrowDownward from '@mui/icons-material/ArrowDownward';
 export default function UserNavbar() {
 
     React.useEffect(()=>{
-        window.addEventListener("scroll",function(){
             const nav=document.getElementsByClassName("bid-nav")[0];
-            if(window.scrollY>0){
                 if(nav?.style){
                     nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
                     nav.style.backgroundColor="#ffffff";
                 }
-            }else{
-                if(nav?.style){
-                    nav.style.boxShadow="none";
-                    nav.style.backgroundColor="#ffffff00";
-                }
-            }
-        });
     },[])
 
     const showMenu=()=>{
@@ -47,9 +38,11 @@ export default function UserNavbar() {
                             </div>
                             <KeyboardArrowDownIcon/>
                             <div className="menu-cont-1">
-                                <div className="menu-item">Biddiing History</div>
-                                <div className="menu-item">My Profile</div>
-                                <div className="menu-item">Log Out</div>
+                                <div className="menu-cont-2">
+                                    <div className="menu-item">Biddiing History</div>
+                                    <div className="menu-item">My Profile</div>
+                                    <div className="menu-item">Log Out</div>        
+                                </div>
                             </div>
                         </div>
                     </div>

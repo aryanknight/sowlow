@@ -128,16 +128,22 @@ a:link, a:visited{
     position: absolute;
     top:100%;
     left:-15%;
+    padding-top: 1rem;
+}
+
+.menu-cont-2{
     background-color: white;
     border-radius: 8px;
     min-width: 15rem;
     box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
     cursor: pointer;
     z-index: 1;
+    overflow: hidden;
 }
 
 .menu-item{
     padding: 1rem;
+    border-bottom: 0.1px solid #5264842f;
 }
 
 .menu-item:hover{
