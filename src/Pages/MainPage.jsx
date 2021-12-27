@@ -9,7 +9,9 @@ import Team from '../Components/Team/Team';
 import Footer from '../Components/Footer/Footer';
 import NavbarSmall from '../Components/Navbar/NavbarSmall';
 import HoverMenu from '../Components/Navbar/HoverMenu';
+import FAQ from '../Components/FAQ/FAQ';
 import Tokenomics from '../Components/Tokenomics/Tokenomics';
+import FAQSmall from '../Components/FAQ/FAQSamll';
 
 export default function MainPage() {
 
@@ -29,6 +31,7 @@ export default function MainPage() {
           <Roadmap/>
           {/* <Tokenomics/> */}
           <Team/>
+          <FAQSmall/>
           <Footer/>
         </div>
     </div>

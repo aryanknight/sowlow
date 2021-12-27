@@ -108,6 +108,41 @@ a:link, a:visited{
 
 .bidding-button-cont{
     display: flex;
+    align-items: center;
+}
+
+.menu-cont{
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow:hidden;
+    height: 100%;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.menu-cont:hover{
+    overflow: visible;
+}
+.menu-cont-1{
+    position: absolute;
+    top:100%;
+    left:-15%;
+    background-color: white;
+    border-radius: 8px;
+    min-width: 15rem;
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-item{
+    padding: 1rem;
+}
+
+.menu-item:hover{
+    color:#ff8a73 ;
+    /* background-color: rgb(235, 235, 235); */
 }
 
 @media (max-width:800px){

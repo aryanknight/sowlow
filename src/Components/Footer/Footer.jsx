@@ -30,7 +30,7 @@ export default function Footer() {
                                     <Link to="/bidding">
                                         <li className="footer-list">Bidding Page</li>
                                     </Link>
-                                    <Link to="/login">
+                                    {/* <Link to="/login">
                                         <li className="footer-list">Login</li>
                                     </Link>
                                     <Link to="/signup">
@@ -38,7 +38,7 @@ export default function Footer() {
                                     </Link>
                                     <Link to="/reset">
                                         <li className="footer-list">Reset Password</li>
-                                    </Link>
+                                    </Link> */}
                                 </ul>
                             </div>
                         </div>

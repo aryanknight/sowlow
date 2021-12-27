@@ -7,6 +7,7 @@ import ClosedAuction from '../Components/ClosedAuction/ClosedAuction';
 import BiddingSmall from '../Components/Navbar/BiddingSmall';
 import UpcomingAuction from '../Components/UpcomingAuction/UpcomingAuction';
 import {Footer1} from '../Components/Footer/Footer';
+import FAQSmall from '../Components/FAQ/FAQSamll';
 
 export default function BiddingPage() {
     React.useEffect(()=>{
@@ -21,6 +22,7 @@ export default function BiddingPage() {
                 <LiveAuctions/>
                 <UpcomingAuction/>
                 <ClosedAuction/>
+                <FAQSmall/>
                 <Footer1/>
             </div>
         </div>

@@ -6,6 +6,7 @@ import SignupPage from "./Components/Authentication/SignUp";
 import ResetPage from "./Pages/ResetPage";
 import FAQPage from "./Pages/FAQPage";
 import './App.css';
+import LoginBiddingPage from "./Pages/LoginBiddingPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route exact path="/signup" element={<SignupPage/>} />
       <Route exact path="/reset" element={<ResetPage/>} />
       <Route exact path="/faq" element={<FAQPage/>} />
+      <Route exact path="/user" element={<LoginBiddingPage/>} />
     </Routes>  
     
   );

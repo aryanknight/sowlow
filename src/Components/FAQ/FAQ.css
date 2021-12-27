@@ -72,6 +72,16 @@
     width: 24px;
 }
 
+.view-more{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(29, 83, 230);
+    font-weight: bold;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
 /* @media(max-width:700px){
     
     .faq{

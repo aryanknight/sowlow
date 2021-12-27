@@ -1,0 +1,44 @@
+.bidding-table-cont{
+    min-height: 110vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #F5F6FA;
+}
+
+.bidding-table{
+    padding: 1rem;
+}
+
+.bidding-table-cont-1{
+    width: 100%;
+    max-width: 100%;
+}
+
+.bidding-row-cont{
+    width: 100%;
+    display: flex;
+}
+
+.bidding-row-head-1{
+    font-size: 16px;
+    padding: 0.5rem;
+    width: 8%;
+}
+
+.bidding-row-head-2{
+    font-size: 16px;
+    padding: 0.5rem;
+    width: 15%;
+}
+
+.bidding-row-head-3{
+    font-size: 16px;
+    padding: 0.5rem;
+    width: 18%;
+}

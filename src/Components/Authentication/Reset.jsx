@@ -35,6 +35,12 @@ export default function Reset() {
                                 </span>
                             </Link>
                         </div>
+
+                        <div className="policies">
+                            <div className="policy">Terms&Condition</div>
+                            <div className="policy">Privacy Policy</div>
+                            <div className="policy">Help</div>
+                        </div>
                         
                     </div>
 

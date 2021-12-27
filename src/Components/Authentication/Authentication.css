@@ -156,6 +156,20 @@
     margin-bottom: 40px;
 }
 
+.policies{
+    margin-top: 25%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.policy{
+    font-size: 14px;
+    cursor: pointer;
+    color:#ff8a73 ;
+}
+
 .login-copyright{
     position: absolute;
     bottom: 10px;
@@ -166,49 +180,6 @@
 }
 
 .crypto-img{
-    width: 60%;
-}
-
-.login-cont-2{
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    margin-top: 20px;
-}
-
-.signup-cont-2{
-    display: flex;
-    justify-content: center;
-    width: 48%;
-    margin-top: 20px;
-}
-
-
-input.form-control{
-    width: 20px;
-}
-.react-tel-input .form-control {
-    font-size: 16px;
-    background: #FFFFFF;
-    border: 1px solid #CACACA;
-    border-radius: 5px;
-    width: 100%;
-    outline: none;
-    padding: 18.5px 14px 18.5px 58px;
-    transition: box-shadow ease .25s,border-color ease .25s;
-}
-.bh{
-    position: absolute;
-    top:-100%;
-}
-.login-cont-3{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#phone-no{
     width: 60%;
 }
 
@@ -266,6 +237,11 @@ input.form-control{
 
     .login-copyright{
         display: none;
+    }
+
+    .policies{
+        width: 100%;
+        padding-bottom: 1rem;
     }
 }
 /* 

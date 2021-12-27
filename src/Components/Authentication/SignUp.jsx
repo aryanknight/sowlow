@@ -150,12 +150,18 @@ export default function SignupPage() {
                             </Link>
                         </div>
 
-                        <div className="or">OR</div>
+                        {/* <div className="or">OR</div>
 
                         <div className="or-option">
                             <div className="option">Facebook</div>
                             <div className="option">Google</div>
+                        </div> */}
+                        <div className="policies">
+                            <div className="policy">Terms&Condition</div>
+                            <div className="policy">Privacy Policy</div>
+                            <div className="policy">Help</div>
                         </div>
+
                         {/* <div className="login-copyright">
                             © 2021 SOWLOW. All Rights Reserved.
                         </div> */}
