@@ -13,7 +13,9 @@ export default function Login() {
             <div className="login-cont">
                 <div className="login-left">
                     <div className="login-cont-1">
-                        <img src={Logo} className="login-img" />
+                        <Link to="/">
+                            < img src={Logo} className="login-img" />
+                        </Link>
                         <div className="login-head">Sign-In</div>
                         <div className="login-para">Access the SOWLOW Account using your email and passcode.</div>
                         

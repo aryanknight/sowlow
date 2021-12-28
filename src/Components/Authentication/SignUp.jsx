@@ -89,7 +89,9 @@ export default function SignupPage() {
             <div className="login-cont">
                 <div className="login-left">
                     <div className="login-cont-1">
-                        <img src={Logo} className="login-img" />
+                        <Link to="/">
+                            < img src={Logo} className="login-img" />
+                        </Link>
                         <div className="login-head">Register</div>
                         <div className="login-para">Create New SOWLOW Account</div>
                         

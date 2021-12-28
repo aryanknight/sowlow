@@ -12,7 +12,9 @@ export default function Reset() {
             <div className="login-cont">
                 <div className="login-left">
                     <div className="login-cont-1">
-                        <img src={Logo} className="login-img" />
+                        <Link to="/">
+                            < img src={Logo} className="login-img" />
+                        </Link>
                         <div className="login-head">Reset Password</div>
                         <div className="login-para">If you forgot your password, well, then we’ll email you instructions to reset your password.</div>
                         

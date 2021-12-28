@@ -52,7 +52,7 @@ export default function UserNavbar() {
                                 <Link to="/user">
                                     <div className="menu-item">Bidding History</div>
                                 </Link>
-                                <Link to="/user">
+                                <Link to="/user-panel">
                                     <div className="menu-item">My Profile</div>
                                 </Link>
                                 <Link to="/user">
