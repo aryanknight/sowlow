@@ -93,27 +93,27 @@ export default function BidNow() {
                                 </div>
                                 <div className="bid-now-right">
                                     <div className="bid-now-head">
-                                        Heading
+                                        0.215 BTC
                                     </div>
                                     <div className="bid-now-fees-cont">
                                         <div className="bid-now-fee">
-                                            <b>Bidding Fee : &nbsp;</b> 0.215BTC
+                                            <b>Bidding Fee : &nbsp;</b> 20 SOLO
                                         </div>
                                         <div className="bid-now-price">
-                                            <b>Retail Price : &nbsp;</b> 0.215BTC
+                                            <b>Price : &nbsp;</b> 0.215BTC
                                         </div>
                                     </div>
 
                                     <MyTimer expiryTimestamp={time} />
-                                    <div className="currently-bid-head">
+                                    {/* <div className="currently-bid-head">
                                         Currently Winning
                                     </div>
                                     <div className="r">
                                         Lorem ipsum
-                                    </div>
+                                    </div> */}
 
                                     <div className="bid-now-text-cont">
-                                        <TextField placeholder='Bidding Price' fullWidth/>
+                                        <TextField label="Bidding Price" placeholder='0.21 BTC' fullWidth/>
                                         <button className="bid-now-button">
                                             Bid Now
                                         </button>
