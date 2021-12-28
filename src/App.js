@@ -8,6 +8,7 @@ import FAQPage from "./Pages/FAQPage";
 import './App.css';
 import LoginBiddingPage from "./Pages/LoginBiddingPage";
 import UserPage from "./Pages/UserPage";
+import BidNowPage from "./Pages/BidNowPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/faq" element={<FAQPage/>} />
       <Route exact path="/user" element={<LoginBiddingPage/>} />
       <Route exact path="/user-panel" element={<UserPage/>} />
+      <Route exact path="/bid-now" element={<BidNowPage/>} />
     </Routes>  
     
   );

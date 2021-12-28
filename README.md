@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 #Link
 https://heuristic-lamport-65f1b3.netlify.app/
-=======
 # sowlow
 
 Sow low website under construction
@@ -55,4 +53,3 @@ Q1 2022 – Product Demo, Partnerships and Token Generation
 Q2 2022 - Products Finalization for Global Reach, Marketing and Product Launch  
 
 Q3 2022 – P2P Marketplace, Mobile App Development and Aggressive Marketing 
->>>>>>> 71b7cab7d8e476d6a6dfbd4c0301f659802d46f9
