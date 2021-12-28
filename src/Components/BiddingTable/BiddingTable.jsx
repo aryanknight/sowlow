@@ -14,16 +14,22 @@ export default function BiddingTable() {
                 </div>
                 <div className="bidding-table">
                     <div className="bidding-table-cont-1" style={{marginTop:'40px'}}>
-                        {/* <div className='bidding-row-cont'>
-                            <div className="bidding-row-head-1">Sr No</div>
-                            <div className="bidding-row-head-2">Date</div>
-                            <div className="bidding-row-head-3">Product Id</div>
-                            <div className="bidding-row-head-3">Product</div>
-                            <div className="bidding-row-head-2">Bid Value</div>
-                            <div className="bidding-row-head-3">Bid Id</div>
-                            <div className="bidding-row-head-1">Status</div>
-                        </div> */}
-                        <BiddingHistory/>
+                        <div className='bidding-row-cont'>
+                            <div className="bidding-row-cont-1">
+                                <div className="bidding-row-sr">Sr No</div>
+                                <div className="bidding-row-date">Date</div>
+                                <div className="bidding-row-product-id">Product Id</div>
+                                <div className="bidding-row-product">Product</div>
+                            </div>
+
+                            <div className="bidding-row-cont-2">
+                                <div className="bidding-row-head-2">Bid Value</div>
+                                <div className="bidding-row-head-3">Bid Id</div>
+                                <div className="bidding-row-head-1">Status</div>
+                            </div>
+                                       
+                        </div>
+                        {/* <BiddingHistory/> */}
                     </div>
                 </div>
                 <div className="main-title" style={{marginTop:"10vh"}}>

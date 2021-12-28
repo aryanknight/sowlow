@@ -25,10 +25,51 @@
     display: flex;
 }
 
+.bidding-row-cont-1{
+    width: 60%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.bidding-row-cont-2{
+    width: 40%;
+    display: flex;
+    background-color: bisque;
+}
+
+.bidding-row-sr{
+    font-size: 14px;
+    padding: 0.5rem;
+    width:10%;
+    display: flex;
+    align-items: center;
+}
+.bidding-row-date{
+    font-size: 14px;
+    padding: 0.5rem;
+    width:40%;
+    display: flex;
+    align-items: center;
+}
+.bidding-row-product-id{
+    font-size: 14px;
+    padding: 0.5rem;
+    width:40%;
+    display: flex;
+    align-items: center;
+}
+.bidding-row-product{
+    font-size: 14px;
+    padding: 0.5rem;
+    width:30%;
+    display: flex;
+    align-items: center;
+}
+
 .bidding-row-head-1{
     font-size: 16px;
     padding: 0.5rem;
-    width: 8%;
+    width: 15%;
 }
 
 .bidding-row-head-2{
