@@ -23,18 +23,20 @@
 .bidding-row-cont{
     width: 100%;
     display: flex;
+    margin-bottom: 20px;
+    padding: 1rem 1rem;
 }
 
 .bidding-row-cont-1{
     width: 60%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
 }
 
 .bidding-row-cont-2{
     width: 40%;
     display: flex;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .bidding-row-sr{
@@ -43,6 +45,7 @@
     width:10%;
     display: flex;
     align-items: center;
+    color:#ff8a73 ;
 }
 .bidding-row-date{
     font-size: 14px;
@@ -66,20 +69,130 @@
     align-items: center;
 }
 
-.bidding-row-head-1{
-    font-size: 16px;
+.bidding-row-bid-val{
+    font-size: 14px;
     padding: 0.5rem;
-    width: 15%;
+    display: flex;
+    align-items: center;
+    width: 40%;
 }
 
-.bidding-row-head-2{
-    font-size: 16px;
+.bidding-row-bid-id{
+    font-size: 14px;
     padding: 0.5rem;
-    width: 15%;
+    display: flex;
+    align-items: center;
+    width: 40%;
 }
 
-.bidding-row-head-3{
-    font-size: 16px;
+.bidding-row-status{
+    font-size: 14px;
     padding: 0.5rem;
-    width: 18%;
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.bidding-pro-bid-val{
+    font-size: 14px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.bidding-pro-bid-id{
+    font-size: 14px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+@media(max-width:800px){
+    .bidding-row-cont-1{
+        width: 60%;
+        flex-wrap: wrap;
+    }
+    
+    .bidding-row-cont-2{
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    
+    .bidding-row-sr{
+        font-size: 14px;
+        padding: 0.5rem;
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+    .bidding-row-date{
+        font-size: 14px;
+        padding: 0.5rem;
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+    .bidding-row-product-id{
+        font-size: 14px;
+        padding: 0.5rem;
+        width:50%;
+        display: flex;
+        align-items: center;
+    }
+    .bidding-row-product{
+        font-size: 14px;
+        padding: 0.5rem;
+        width:50%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .bidding-row-bid-val{
+        font-size: 14px;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .bidding-row-bid-id{
+        font-size: 14px;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .bidding-row-status{
+        font-size: 14px;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .bidding-pro-bid-id{
+        font-size: 14px;
+        padding: 0.5rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .bidding-pro-bid-val{
+        font-size: 14px;
+        padding: 0.5rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        width: 100%;
+    }
 }

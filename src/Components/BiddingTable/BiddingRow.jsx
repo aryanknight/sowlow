@@ -19,75 +19,89 @@ const rows = [
   createData(5, '11/12/2021 4:50:23 pm' , 24556, 'Bitcoin', 0.023,5648,'Close')
 ];
 
-export default function BiddingHistory() {
-    return (
-        <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell>Sr No</TableCell>
-            <TableCell align="right">Date</TableCell>
-            <TableCell align="right">Product ID</TableCell>
-            <TableCell align="right">Product</TableCell>
-            <TableCell align="right">Bid Value</TableCell>
-            <TableCell align="right">Bid ID</TableCell>
-            <TableCell align="right">Status</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow
-              key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-            >
-              <TableCell component="th" scope="row" style={{color:'#8094ae'}}>{row.no}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.date}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.productID}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.product}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.bidValue}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.bidID}</TableCell>
-              {row.status=='Live' ? (<TableCell align="right" style={{color:'#1ee0ac'}}>{row.status}</TableCell>) : (<TableCell align="right" style={{color:'#e85347'}}>{row.status}</TableCell>)}
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
-    )
-}
+// export default function BiddingHistory() {
+//     return (
+//         <TableContainer component={Paper}>
+//       <Table sx={{ minWidth: 650 }} aria-label="simple table">
+//         <TableHead>
+//           <TableRow>
+//             <TableCell>Sr No</TableCell>
+//             <TableCell align="right">Date</TableCell>
+//             <TableCell align="right">Product ID</TableCell>
+//             <TableCell align="right">Product</TableCell>
+//             <TableCell align="right">Bid Value</TableCell>
+//             <TableCell align="right">Bid ID</TableCell>
+//             <TableCell align="right">Status</TableCell>
+//           </TableRow>
+//         </TableHead>
+//         <TableBody>
+//           {rows.map((row) => (
+//             <TableRow
+//               key={row.name}
+//               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+//             >
+//               <TableCell component="th" scope="row" style={{color:'#8094ae'}}>{row.no}</TableCell>
+//               <TableCell align="right" style={{color:'#8094ae'}}>{row.date}</TableCell>
+//               <TableCell align="right" style={{color:'#8094ae'}}>{row.productID}</TableCell>
+//               <TableCell align="right" style={{color:'#8094ae'}}>{row.product}</TableCell>
+//               <TableCell align="right" style={{color:'#8094ae'}}>{row.bidValue}</TableCell>
+//               <TableCell align="right" style={{color:'#8094ae'}}>{row.bidID}</TableCell>
+//               {row.status=='Live' ? (<TableCell align="right" style={{color:'#1ee0ac'}}>{row.status}</TableCell>) : (<TableCell align="right" style={{color:'#e85347'}}>{row.status}</TableCell>)}
+//             </TableRow>
+//           ))}
+//         </TableBody>
+//       </Table>
+//     </TableContainer>
+//     )
+// }
 
 
 export function ProductsWon() {
     return (
-        <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell>Sr No</TableCell>
-            <TableCell align="right">Date</TableCell>
-            <TableCell align="right">Product ID</TableCell>
-            <TableCell align="right">Product</TableCell>
-            <TableCell align="right">Bid Value</TableCell>
-            <TableCell align="right">Bid ID</TableCell>
-            <TableCell align="right">Status</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow
-              key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-            >
-              <TableCell component="th" scope="row" style={{color:'#8094ae'}}>{row.no}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.date}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.productID}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.product}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.bidValue}</TableCell>
-              <TableCell align="right" style={{color:'#8094ae'}}>{row.bidID}</TableCell>
-              {row.status=='Live' ? (<TableCell align="right" style={{color:'#1ee0ac'}}>{row.status}</TableCell>) : (<TableCell align="right" style={{color:'#e85347'}}>{row.status}</TableCell>)}
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+      <>
+      {rows.map((row)=>(
+        <Paper elevation={3}>
+          <div className='bidding-row-cont'>
+              <div className="bidding-row-cont-1">
+                  <div className="bidding-row-sr">#{row.no}</div>
+                  <div className="bidding-row-date">{row.date}</div>
+                  <div className="bidding-row-product-id">{row.productID}</div>
+                  <div className="bidding-row-product">{row.product}</div>
+              </div>
+    
+              <div className="bidding-row-cont-2">
+                  <div className="bidding-pro-bid-val">{row.bidValue}</div>
+                  <div className="bidding-pro-bid-id">{row.bidID}</div>
+              </div>
+                        
+          </div>
+        </Paper>))}
+      </>
     )
 }
+
+export default function BiddingHistory() {
+  return (
+    <>
+    {rows.map((row)=>(
+    <Paper elevation={3}>
+      <div className='bidding-row-cont'>
+          <div className="bidding-row-cont-1">
+              <div className="bidding-row-sr">#{row.no}</div>
+              <div className="bidding-row-date">{row.date}</div>
+              <div className="bidding-row-product-id">{row.productID}</div>
+              <div className="bidding-row-product">{row.product}</div>
+          </div>
+
+          <div className="bidding-row-cont-2">
+              <div className="bidding-row-bid-val">{row.bidValue}</div>
+              <div className="bidding-row-bid-id">{row.bidID}</div>
+              {row.status=='Live' ? (<div className="bidding-row-status" style={{color:'#1ee0ac'}}>{row.status}</div>) : (<div className="bidding-row-status" style={{color:'#e85347'}}>{row.status}</div>)}
+          </div>
+                    
+      </div>
+    </Paper>))}
+    </>
+  )
+}
+
