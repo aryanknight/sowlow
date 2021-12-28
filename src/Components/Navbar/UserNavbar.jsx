@@ -31,7 +31,17 @@ export default function UserNavbar() {
                         </Link>
                     </div>
                     <div className="bidding-button-cont">
-                        <Avatar src={User} style={{marginRight:'20px'}} />
+                            <Link to="/signup">
+                                <button className="intro-button">
+                                    Connect Wallet
+                                </button>
+                            </Link>
+                            <Link to="/login">
+                                <button id="how-bid-btn" style={{backgroundColor:'#ffffff00'}}>
+                                    Live Auctions
+                                </button>
+                            </Link>
+                        {/* <Avatar src={User} style={{marginRight:'20px'}} /> */}
                         <div className="menu-cont">
                             <div className="user-name">
                                 My Account

@@ -15,7 +15,7 @@ export default function Login() {
                     <div className="login-cont-1">
                         <img src={Logo} className="login-img" />
                         <div className="login-head">Sign-In</div>
-                        <div className="login-para">Access the SOLO Account using your email and passcode.</div>
+                        <div className="login-para">Access the SOWLOW Account using your email and passcode.</div>
                         
                         <div className="login-subhead">Email or Username</div>
                         <div className="cred-cont">

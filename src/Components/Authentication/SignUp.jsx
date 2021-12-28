@@ -91,7 +91,7 @@ export default function SignupPage() {
                     <div className="login-cont-1">
                         <img src={Logo} className="login-img" />
                         <div className="login-head">Register</div>
-                        <div className="login-para">Create New SOLO Account</div>
+                        <div className="login-para">Create New SOWLOW Account</div>
                         
                         <div className="login-subhead">Name</div>
                         <div className="cred-cont">

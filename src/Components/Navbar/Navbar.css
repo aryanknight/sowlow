@@ -121,6 +121,11 @@ a:link, a:visited{
     z-index: 5;
 }
 
+.user-name{
+    color: #716c80;
+    font-size: 18px;
+}
+
 .menu-cont:hover{
     overflow: visible;
 }
