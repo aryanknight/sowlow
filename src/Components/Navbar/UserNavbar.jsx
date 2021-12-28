@@ -39,9 +39,16 @@ export default function UserNavbar() {
                             <KeyboardArrowDownIcon/>
                             <div className="menu-cont-1">
                                 <div className="menu-cont-2">
-                                    <div className="menu-item">Biddiing History</div>
+                                <Link to="/user">
+                                    <div className="menu-item">Bidding History</div>
+                                </Link>
+                                <Link to="/user">
                                     <div className="menu-item">My Profile</div>
-                                    <div className="menu-item">Log Out</div>        
+                                </Link>
+                                <Link to="/user">
+                                    <div className="menu-item">Log Out</div>
+                                </Link>
+                                            
                                 </div>
                             </div>
                         </div>
