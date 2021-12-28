@@ -9,7 +9,7 @@ export default function BidNowPage() {
       },[])
     return (
         <div className="App">
-            <div className="container-large">
+            <div className="container-large" style={{backgroundColor:'#F5F6FA'}}>
                 <UserNavbar/>
                 <BidNow/>
                 <Footer1/>
