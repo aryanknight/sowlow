@@ -52,21 +52,31 @@
     padding: 1rem;
 }
 
+.user-detail-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .panel-detail-head{
-    width: 100%;
+    width: 30%;
     color: #526484;
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
 }
 
 .panel-detail-val{
-    width: 40%;
+    width: 70%;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .panel-btn-cont{
-    width: 40%;
+    width: 100%;
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .panel-btn-1{
@@ -88,6 +98,7 @@
 
 .panel-btn-2{
     color: #8094ae;
+    background-color: rgb(236, 236, 236);
     padding: 1rem 0rem;
     width: 48%;
     display: flex;
@@ -104,4 +115,30 @@
 .panel-btn-2:hover{
     background-color: rgb(240, 240, 240);
     cursor: pointer;
+}
+
+@media(max-width:700px){
+    .panel-detail-head{
+        width: 100%;
+        color: #526484;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .panel-detail-val{
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .panel-btn-1{
+        width: 100%;
+    }
+    
+    .panel-btn-2{
+        margin-top: 20px;
+       width: 100%;
+    }
 }

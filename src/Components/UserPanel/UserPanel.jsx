@@ -29,47 +29,55 @@ export default function UserPanel() {
                             </div>
                         </div>
                         <div className="panel-cont-3">
-                            <div className="panel-detail-head">
-                                Full Name
-                            </div>
-                            <div className="panel-detail-val">
-                                <TextField fullWidth={true} required placeholder="Your Full Namr" defaultValue="Abu Bin Ishtiyak" />
+
+                            <div className="user-detail-cont">
+                                <div className="panel-detail-head">
+                                    Full Name
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} required placeholder="Your Full Namr" defaultValue="Abu Bin Ishtiyak" />
+                                </div>
                             </div>
 
-                            <div className="panel-detail-head">
-                                Phone Number
-                            </div>
-                            <div className="panel-detail-val">
-                                <TextField fullWidth={true} required placeholder="Phone No" defaultValue="8858984562" />
-                            </div>
-
-                            <div className="panel-detail-head">
-                                Date of Birth
-                            </div>
-                            <div className="panel-detail-val">
-                                <TextField fullWidth={true} required placeholder="Your Full Namr" defaultValue="29 Mar 2000" />
+                            <div className="user-detail-cont">
+                                <div className="panel-detail-head">
+                                    Email
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} required placeholder="your@mail.com" defaultValue="abc@gmail.com" />
+                                </div>
                             </div>
 
-                            <div className="panel-detail-head">
-                                Full Name
-                            </div>
-                            <div className="panel-detail-val">
-                                <TextField fullWidth={true} required placeholder="Your Full Namr" defaultValue="Abu Bin Ishtiyak" />
-                            </div>
-
-                            <div className="panel-detail-head">
-                                Phone Number
-                            </div>
-                            <div className="panel-detail-val">
-                                <TextField fullWidth={true} required placeholder="Phone No" defaultValue="8858984562" />
+                            <div className="user-detail-cont">
+                                <div className="panel-detail-head">
+                                    Phone Number
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} required placeholder="Phone No" defaultValue="8858984562" />
+                                </div>
                             </div>
 
-                            <div className="panel-detail-head">
-                                Date of Birth
+                            <div className="user-detail-cont">
+                                <div className="panel-detail-head">
+                                    ETH Wallet Address
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} required placeholder="ETH Wallet Address" defaultValue="64SDVS6831DS" />
+                                </div>
                             </div>
-                            <div className="panel-detail-val">
-                                <TextField fullWidth={true} required placeholder="Your Full Namr" defaultValue="29 Mar 2000" />
+
+                            <div className="user-detail-cont">
+                                <div className="panel-detail-head">
+                                    BTC Wallet Address
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} required placeholder="BTC Wallet Address" defaultValue="64SDVS6831DS" />
+                                </div>
                             </div>
+                            
+
+                            
+
 
                             <div className="panel-btn-cont">
                                 <div className="panel-btn-1">
