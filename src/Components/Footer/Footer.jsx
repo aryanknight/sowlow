@@ -24,11 +24,20 @@ export default function Footer() {
                             </div>
                             <div className="footer-list">
                                 <ul>
+                                    <Link to="/">
+                                        <li className="footer-list">Home</li>
+                                    </Link>
                                     <Link to="/faq">
                                         <li className="footer-list">FAQ</li>
                                     </Link>
+                                    <Link to="/faq">
+                                        <li className="footer-list">Terms & Conditions</li>
+                                    </Link>
                                     <Link to="/bidding">
-                                        <li className="footer-list">Bidding Page</li>
+                                        <li className="footer-list">Privacy Policy</li>
+                                    </Link>
+                                    <Link to="/bidding">
+                                        <li className="footer-list">Help</li>
                                     </Link>
                                     {/* <Link to="/login">
                                         <li className="footer-list">Login</li>
@@ -73,20 +82,20 @@ export function Footer1() {
                             </div>
                             <div className="footer-list">
                                 <ul>
+                                    <Link to="/">
+                                        <li className="footer-list">Home</li>
+                                    </Link>
                                     <Link to="/faq">
                                         <li className="footer-list">FAQ</li>
                                     </Link>
+                                    <Link to="/faq">
+                                        <li className="footer-list">Terms & Conditions</li>
+                                    </Link>
                                     <Link to="/bidding">
-                                        <li className="footer-list">Bidding Page</li>
+                                        <li className="footer-list">Privacy Policy</li>
                                     </Link>
-                                    <Link to="/login">
-                                        <li className="footer-list">Login</li>
-                                    </Link>
-                                    <Link to="/signup">
-                                        <li className="footer-list">Sign-Up</li>
-                                    </Link>
-                                    <Link to="/reset">
-                                        <li className="footer-list">Reset Password</li>
+                                    <Link to="/bidding">
+                                        <li className="footer-list">Help</li>
                                     </Link>
                                 </ul>
                             </div>

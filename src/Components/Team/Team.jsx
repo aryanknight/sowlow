@@ -12,7 +12,7 @@ export default function Team() {
         <div className="team-cont" id="team">
             <div className="container-medium">
                 <div className="main-title" style={{marginTop:"20px"}}>
-                    Our Smart Team
+                    Team
                 </div>
                 <div className="team">
                     <div className="team-1">
