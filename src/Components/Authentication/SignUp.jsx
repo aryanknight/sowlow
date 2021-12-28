@@ -156,7 +156,7 @@ export default function SignupPage() {
                             <div className="option">Facebook</div>
                             <div className="option">Google</div>
                         </div> */}
-                        <div className="policies">
+                        <div className="policies" style={{marginTop:'1rem',paddingBottom:'1rem'}}>
                             <div className="policy">Terms&Condition</div>
                             <div className="policy">Privacy Policy</div>
                             <div className="policy">Help</div>
