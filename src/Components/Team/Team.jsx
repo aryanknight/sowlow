@@ -1,10 +1,10 @@
 import React from 'react';
 import Cards from './Card';
 import Person from '../../Images/person.jpg';
-import Adam from '../../Images/adam.png';
+import Ryan from '../../Images/Ryan.png';
 import Sam from '../../Images/sam.png';
-import Mark from '../../Images/mark.png';
-import John from '../../Images/john.png';
+import Jonas from '../../Images/Jonas.png';
+import Ivan from '../../Images/Ivan.png';
 import './Team.css';
 
 export default function Team() {
@@ -17,10 +17,10 @@ export default function Team() {
                 <div className="team">
                     <div className="team-1">
                         <div className="team-2">
-                            <Cards title="John" para="CEO" img={John}/>
-                            <Cards title="Mark" para="CTO" img={Mark}/>
+                            <Cards title="Ryan" para="CEO" img={Ryan}/>
+                            <Cards title="Jonas" para="CTO" img={Jonas}/>
                             <Cards title="Sam" para="COO" img={Sam}/>
-                            <Cards title="Adam" para="CMO" img={Adam}/>
+                            <Cards title="Ivan" para="CMO" img={Ivan}/>
                         </div>
                         
                     </div>
