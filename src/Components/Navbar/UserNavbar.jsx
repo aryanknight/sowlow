@@ -36,7 +36,7 @@ export default function UserNavbar() {
                                     Connect Wallet
                                 </button>
                             </Link>
-                            <Link to="/login">
+                            <Link to="/bidding">
                                 <button id="how-bid-btn" style={{backgroundColor:'#ffffff00'}}>
                                     Live Auctions
                                 </button>
