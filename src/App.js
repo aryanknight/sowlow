@@ -9,6 +9,7 @@ import './App.css';
 import LoginBiddingPage from "./Pages/LoginBiddingPage";
 import UserPage from "./Pages/UserPage";
 import BidNowPage from "./Pages/BidNowPage";
+import PrivacyPage from "./Pages/PrivacyPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route exact path="/user" element={<LoginBiddingPage/>} />
       <Route exact path="/user-panel" element={<UserPage/>} />
       <Route exact path="/bid-now" element={<BidNowPage/>} />
+      <Route exact path="/privacy-policy" element={<PrivacyPage/>} />
     </Routes>  
     
   );

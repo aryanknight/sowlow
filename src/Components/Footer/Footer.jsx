@@ -33,7 +33,7 @@ export default function Footer() {
                                     <Link to="/faq">
                                         <li className="footer-list">Terms & Conditions</li>
                                     </Link>
-                                    <Link to="/bidding">
+                                    <Link to="/privacy-policy">
                                         <li className="footer-list">Privacy Policy</li>
                                     </Link>
                                     <Link to="/bidding">
@@ -91,7 +91,7 @@ export function Footer1() {
                                     <Link to="/faq">
                                         <li className="footer-list">Terms & Conditions</li>
                                     </Link>
-                                    <Link to="/bidding">
+                                    <Link to="/privacy-policy">
                                         <li className="footer-list">Privacy Policy</li>
                                     </Link>
                                     <Link to="/bidding">

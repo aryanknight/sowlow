@@ -1,0 +1,33 @@
+.privacy-policy-cont{
+    min-height: 110vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.privacy-policy{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.privacy-policy-para{
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.privacy-policy-head{
+    font-size: 30px;
+    padding: 1rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 20px 0px;
+}
