@@ -1,0 +1,73 @@
+import React from 'react';
+import Logo from '../../Images/logo.png';
+import MenuIcon from '@mui/icons-material/Menu';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import { ReactComponent as Medium } from '../../Images/medium.svg';
+import { ReactComponent as Discord } from '../../Images/discord.svg';
+import Twitter from '@mui/icons-material/Twitter';
+import { Link } from 'react-router-dom';
+
+export default function UserNavbarSmall() {
+
+    React.useEffect(()=>{
+        window.addEventListener("scroll",function(){
+            const nav=document.getElementById("user-sm-nav");
+            if(window.scrollY>0){
+                if(nav?.style){
+                    nav.style.boxShadow="0 7px 13px 0 rgb(0 0 0 / 10%)";
+                    nav.style.backgroundColor="#ffffff";
+                }
+            }else{
+                if(nav?.style){
+                    nav.style.boxShadow="none";
+                    nav.style.backgroundColor="#ffffff00";
+                }
+            }
+        });
+    },[])
+    function expand(){
+        const a=document.getElementById("bn");
+        if (a.style.maxHeight){
+            a.style.maxHeight = null;
+          } else {
+            a.style.maxHeight = a.scrollHeight + "px";
+          } 
+    }
+    
+    return (
+        <div className="navbar-cont" id="user-sm-nav">
+            <div className="container-medium">
+                <div className="navbar">
+                    <div className="navbar-logo">
+                        <Link to="/">
+                            <img src={Logo} id="nav-logo"/>
+                        </Link>
+                    </div>
+                    <MenuIcon onClick={expand}/>
+                </div>
+                <div className="sm-navbar-menu" id="bn">
+                        <div className="sm-nav-item"><a href='/'>Connect Wallet</a></div>
+                        <div className="sm-nav-item"><a href='/bidding'>Live Auction</a></div>
+                        <div className="sm-nav-item"><a href="/user">Bidding History</a></div>
+                        <div className="sm-nav-item"><a href="/user-panel">My Profile</a></div>
+                        <div className="sm-nav-item"><a href="/">Logout</a></div>
+                        {/* <div className="sm-nav-item"><a href="#tokenomics">Tokenomics</a></div> */}
+                        {/* <div className="sm-nav-item">
+                            <a href="https://google.com" target="_blank">
+                                <Medium className="small-item" style={{width:'20px',height:'20px',marginRight:'16px'}}/>
+                            </a>
+                            <a href="https://google.com" target="_blank">
+                                <Discord className="small-item" style={{width:'20px',height:'20px',marginRight:'16px'}}/>
+                            </a>
+                            <a href="https://google.com" target="_blank">
+                                <Twitter className="small-item" style={{width:'20px',height:'20px',color:'black',marginRight:'16px'}}/>
+                            </a>
+                            <a href="https://google.com" target="_blank">
+                                <TelegramIcon className="small-item" style={{width:'20px',height:'20px',color:'black',marginRight:'16px'}}/>
+                            </a>
+                        </div> */}
+                </div>
+            </div>
+        </div>    
+    )
+}

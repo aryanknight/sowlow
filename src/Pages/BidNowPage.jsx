@@ -3,6 +3,7 @@ import BidNow from '../Components/BidNow/BidNow';
 import {Footer1} from '../Components/Footer/Footer';
 import LiveAuctions, { LiveAuctionsScroll } from '../Components/LiveAuctions/LiveAuctions';
 import UserNavbar from '../Components/Navbar/UserNavbar';
+import UserNavbarSmall from '../Components/Navbar/UserNavbarSmall';
 import UpcomingAuction from '../Components/UpcomingAuction/UpcomingAuction';
 
 export default function BidNowPage() {
@@ -12,6 +13,7 @@ export default function BidNowPage() {
     return (
         <div className="App">
             <div className="container-large" style={{backgroundColor:'#F5F6FA'}}>
+                <UserNavbarSmall/>
                 <UserNavbar/>
                 <BidNow/>
                 <LiveAuctionsScroll/>

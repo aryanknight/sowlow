@@ -28,6 +28,14 @@
     display: flex;
 }
 
+#user-sm-nav{
+    display: none;
+}
+
+#user-lg-nav{
+    display: flex;
+}
+
 .navbar-menu{
     display: flex;
 }
@@ -162,6 +170,14 @@ a:link, a:visited{
     }
 
     #lg-nav{
+        display: none;
+    }
+
+    #user-sm-nav{
+        display: flex;
+    }
+
+    #user-lg-nav{
         display: none;
     }
 }
