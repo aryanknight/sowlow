@@ -88,6 +88,48 @@ export default function UserPanel() {
                                 </div>
                             </div>
                         </div>
+                        <div className="panel-cont-2" style={{marginTop:'40px'}}>
+                            <div className="panel-head">
+                                Security
+                            </div>
+                            <div className="panel-para">
+                                Basic Security Settings.
+                            </div>
+                        </div>
+                        <div className="panel-cont-3">
+                            <div className="user-detail-cont" >
+                                <div className="panel-detail-head">
+                                    Type Old Password
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} placeholder="abc123"  />
+                                </div>
+                            </div>
+
+                            <div className="user-detail-cont">
+                                <div className="panel-detail-head">
+                                    Type New Password
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} placeholder="New Password" />
+                                </div>
+                            </div>
+
+                            <div className="user-detail-cont">
+                                <div className="panel-detail-head">
+                                    Retype New Password
+                                </div>
+                                <div className="panel-detail-val">
+                                    <TextField fullWidth={true} placeholder="New Password" />
+                                </div>
+                            </div>
+
+                            <div className="panel-btn-cont">
+                                <div className="panel-btn-1" style={{width:'100%'}}>
+                                    Change Password
+                                </div>
+                            </div>
+                        </div>
                     </Paper>
                 </div>
             </div>
