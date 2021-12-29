@@ -92,3 +92,40 @@ export default function Cards({img,price,type,date}) {
         </div>
     )
 }
+
+
+export function CardScroll({img,price,type,date}) {
+    const time = new Date();
+    var startDate = new Date(); // Current date now.
+    var endDate = new Date(2021 , 11 , 31 , 0, 0, 0, 0); // end time
+    var timeDiff = (endDate-startDate)/1000; 
+    time.setSeconds(time.getSeconds() + timeDiff);
+    return (
+        <div className='upcoming-card-cont'>
+            <div className="auction-title">
+                {price}
+            </div>
+            <div className="auction-card-img-cont">
+                <img src={type} alt="" className="upcoming-img" />
+            </div>
+            
+            <MyTimer expiryTimestamp={time} />
+            
+            <div className="auction-price">
+                <div className="price">
+                    <b>Price :</b>
+                    <img src={type} className='fee-img' />
+                    {price}
+                </div>
+                <div className="bid-fee">
+                    <b>Bid Fee :</b> 20 SOLO
+                </div>
+            </div>
+            <Link to="/bid-now">
+            <div className="auction-btn">
+                BID NOW
+            </div>
+            </Link>
+        </div>
+    )
+}

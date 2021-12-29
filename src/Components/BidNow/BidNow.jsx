@@ -24,10 +24,10 @@ function MyTimer({ expiryTimestamp }) {
     return (
         <div className="bid-now-timer-cont">
             <div className="remaining-time" id="rem1" >
-                Remaing Time :
+                Bidding Time :
             </div>
             <div className="remaining-time" id="rem2">
-                Remaing Time
+                Bidding Time
             </div>
             <div className="bid-timer-cont">
                 <div className="bid-timer-cont-1">
@@ -113,6 +113,9 @@ export default function BidNow() {
                                     </div> */}
 
                                     <div className="bid-now-text-cont">
+                                        <div className="currently-bid-head">
+                                            Bidding Price
+                                        </div>
                                         <TextField label="Bidding Price" placeholder='0.21 BTC' fullWidth/>
                                         <button className="bid-now-button">
                                             Bid Now

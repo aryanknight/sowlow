@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTimer } from "react-timer-hook";
+import { Link } from 'react-router-dom';
 
 function MyTimer({ expiryTimestamp }) {
     const {
@@ -83,6 +84,11 @@ export default function Cards({img,price,type,date}) {
                     <b>Bid Fee :</b> 20 SOLO
                 </div>
             </div>
+            <Link to="/bid-now">
+            <div className="auction-btn">
+                REMIND ME
+            </div>
+            </Link>
         </div>
     )
 }

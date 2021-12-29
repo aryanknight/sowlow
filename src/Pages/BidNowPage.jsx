@@ -1,7 +1,9 @@
 import React from 'react';
 import BidNow from '../Components/BidNow/BidNow';
 import {Footer1} from '../Components/Footer/Footer';
+import LiveAuctions, { LiveAuctionsScroll } from '../Components/LiveAuctions/LiveAuctions';
 import UserNavbar from '../Components/Navbar/UserNavbar';
+import UpcomingAuction from '../Components/UpcomingAuction/UpcomingAuction';
 
 export default function BidNowPage() {
     React.useEffect(()=>{
@@ -12,6 +14,8 @@ export default function BidNowPage() {
             <div className="container-large" style={{backgroundColor:'#F5F6FA'}}>
                 <UserNavbar/>
                 <BidNow/>
+                <LiveAuctionsScroll/>
+                <UpcomingAuction/>
                 <Footer1/>
             </div>
         </div>

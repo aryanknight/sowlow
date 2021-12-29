@@ -1,11 +1,11 @@
 import React from 'react'
 import Logo from '../../Images/logo.png';
 import {Link} from 'react-router-dom';
-import Avatar from '@mui/material/Avatar';
-import User from '../../Images/user.png';
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import "./Navbar.css";
 import ArrowDownward from '@mui/icons-material/ArrowDownward';
+import { flexbox } from '@mui/system';
 
 export default function UserNavbar() {
 
@@ -32,8 +32,9 @@ export default function UserNavbar() {
                     </div>
                     <div className="bidding-button-cont">
                             <Link to="/signup">
-                                <button className="intro-button">
+                                <button className="intro-button" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                                     Connect Wallet
+                                    <AccountBalanceWalletIcon style={{marginLeft:'10px'}}/>
                                 </button>
                             </Link>
                             <Link to="/bidding">
