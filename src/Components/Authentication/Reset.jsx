@@ -39,9 +39,15 @@ export default function Reset() {
                         </div>
 
                         <div className="policies">
-                            <div className="policy">Terms&Condition</div>
-                            <div className="policy">Privacy Policy</div>
-                            <div className="policy">Help</div>
+                            <Link to="/terms">
+                                <div className="policy">Terms&Condition</div>
+                            </Link>
+                            <Link to="/privacy-policy">
+                                <div className="policy">Privacy Policy</div>
+                            </Link>
+                            <Link to="/terms">
+                                <div className="policy">Help</div>
+                            </Link>
                         </div>
                         
                     </div>
