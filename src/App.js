@@ -10,6 +10,8 @@ import LoginBiddingPage from "./Pages/LoginBiddingPage";
 import UserPage from "./Pages/UserPage";
 import BidNowPage from "./Pages/BidNowPage";
 import PrivacyPage from "./Pages/PrivacyPage";
+import Terms from "./Components/PrivacyPolicy/Terms";
+import TermsPage from "./Pages/TermsPage";
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
       <Route exact path="/user-panel" element={<UserPage/>} />
       <Route exact path="/bid-now" element={<BidNowPage/>} />
       <Route exact path="/privacy-policy" element={<PrivacyPage/>} />
+      <Route exact path="/terms" element={<TermsPage/>} />
     </Routes>  
     
   );

@@ -30,7 +30,7 @@ export default function Footer() {
                                     <Link to="/faq">
                                         <li className="footer-list">FAQ</li>
                                     </Link>
-                                    <Link to="/faq">
+                                    <Link to="/terms">
                                         <li className="footer-list">Terms & Conditions</li>
                                     </Link>
                                     <Link to="/privacy-policy">
@@ -88,7 +88,7 @@ export function Footer1() {
                                     <Link to="/faq">
                                         <li className="footer-list">FAQ</li>
                                     </Link>
-                                    <Link to="/faq">
+                                    <Link to="/terms">
                                         <li className="footer-list">Terms & Conditions</li>
                                     </Link>
                                     <Link to="/privacy-policy">
