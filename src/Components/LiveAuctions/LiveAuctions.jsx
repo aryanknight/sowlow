@@ -3,6 +3,10 @@ import Cards from './Cards';
 import Carousel from "react-multi-carousel";
 import { CardScroll } from './Cards';
 import Lap from '../../Images/lap.png';
+import Nft1 from '../../Images/nft1.jpg';
+import Nft2 from '../../Images/nft2.png';
+import Nft3 from '../../Images/nft3.png';
+import Nft4 from '../../Images/nft4.png';
 import Lap1 from '../../Images/lap1.png';
 import btc from '../../Images/btc1.png';
 import eth from '../../Images/eth2.png';
@@ -20,18 +24,18 @@ export default function LiveAuctions() {
                 </div>
                 <div className="live">
                     <div className="live-card-cont">
-                        <Cards img={Lap} price="0.21 BTC" type={btc} />
+                        <Cards img={Nft1} price="0.21 BTC" type={btc} />
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={Lap} price="0.158 ETH" type={eth}/>
+                        <Cards img={Nft2} price="0.158 ETH" type={eth}/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={Lap1} price="0.21 BTC" type={btc}/>
+                        <Cards img={Nft3} price="0.21 BTC" type={btc}/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={Lap1} price="0.158 ETH" type={eth}/>
+                        <Cards img={Nft4} price="0.158 ETH" type={eth}/>
                     </div>
-                    <div className="live-card-cont">
+                    {/* <div className="live-card-cont">
                         <Cards img={Lap} price="0.21 BTC" type={btc}/>
                     </div>
                     <div className="live-card-cont">
@@ -42,7 +46,7 @@ export default function LiveAuctions() {
                     </div>
                     <div className="live-card-cont">
                         <Cards img={Lap1} price="0.158 ETH" type={eth}/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

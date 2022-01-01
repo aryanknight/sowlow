@@ -68,9 +68,9 @@
     width: 60%;
     transition: 1s;
 }
-.auction-img:hover{
+/* .auction-img:hover{
     transform: rotate(360deg);
-}
+} */
 
 
 .win-cont{

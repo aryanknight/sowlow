@@ -60,7 +60,7 @@ function MyTimer({ expiryTimestamp }) {
 export default function Cards({img,price,type,date}) {
     const time = new Date();
     var startDate = new Date(); // Current date now.
-    var endDate = new Date(2021 , 11 , 31 , 0, 0, 0, 0); // end time
+    var endDate = new Date(2022 , 0 , 31 , 0, 0, 0, 0); // end time
     var timeDiff = (endDate-startDate)/1000; 
     time.setSeconds(time.getSeconds() + timeDiff);
     return (
@@ -69,7 +69,7 @@ export default function Cards({img,price,type,date}) {
                 {price}
             </div>
             <div className="auction-card-img-cont">
-                <img src={type} alt="" className="auction-img" />
+                <img src={img} alt="" className="auction-img" />
             </div>
             
             <MyTimer expiryTimestamp={time} />
