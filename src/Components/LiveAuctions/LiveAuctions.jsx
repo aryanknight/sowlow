@@ -24,6 +24,18 @@ export default function LiveAuctions() {
                 </div>
                 <div className="live">
                     <div className="live-card-cont">
+                        <Cards img={btc} price="0.21 BTC" type={btc}/>
+                    </div>
+                    <div className="live-card-cont">
+                        <Cards img={btc} price="0.21 BTC" type={btc}/>
+                    </div>
+                    <div className="live-card-cont">
+                        <Cards img={eth} price="0.158 ETH" type={eth}/>
+                    </div>
+                    <div className="live-card-cont">
+                        <Cards img={eth} price="0.158 ETH" type={eth}/>
+                    </div>
+                    <div className="live-card-cont">
                         <Cards img={Nft1} price="0.21 BTC" type={btc} />
                     </div>
                     <div className="live-card-cont">
@@ -35,18 +47,6 @@ export default function LiveAuctions() {
                     <div className="live-card-cont">
                         <Cards img={Nft4} price="0.158 ETH" type={eth}/>
                     </div>
-                    {/* <div className="live-card-cont">
-                        <Cards img={Lap} price="0.21 BTC" type={btc}/>
-                    </div>
-                    <div className="live-card-cont">
-                        <Cards img={Lap} price="0.21 BTC" type={btc}/>
-                    </div>
-                    <div className="live-card-cont">
-                        <Cards img={Lap1} price="0.158 ETH" type={eth}/>
-                    </div>
-                    <div className="live-card-cont">
-                        <Cards img={Lap1} price="0.158 ETH" type={eth}/>
-                    </div> */}
                 </div>
             </div>
         </div>
