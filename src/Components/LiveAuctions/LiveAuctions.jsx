@@ -24,28 +24,28 @@ export default function LiveAuctions() {
                 </div>
                 <div className="live">
                     <div className="live-card-cont">
-                        <Cards img={btc} price="0.21 BTC" type={btc}/>
+                        <Cards img={btc} price="0.21 BTC" type={btc} id="5"/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={btc} price="0.21 BTC" type={btc}/>
+                        <Cards img={btc} price="0.21 BTC" type={btc} id="5"/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={eth} price="0.158 ETH" type={eth}/>
+                        <Cards img={eth} price="0.158 ETH" type={eth} id="6"/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={eth} price="0.158 ETH" type={eth}/>
+                        <Cards img={eth} price="0.158 ETH" type={eth} id="6"/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={Nft1} price="0.21 BTC" type={btc} />
+                        <Cards img={Nft1} price="2.65 ETH" type={eth} id="1" />
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={Nft2} price="0.158 ETH" type={eth}/>
+                        <Cards img={Nft2} price="3.0 WETH" type={eth} id="2"/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={Nft3} price="0.21 BTC" type={btc}/>
+                        <Cards img={Nft3} price="0.032 ETH" type={eth} id="3"/>
                     </div>
                     <div className="live-card-cont">
-                        <Cards img={Nft4} price="0.158 ETH" type={eth}/>
+                        <Cards img={Nft4} price="0.074 ETH" type={eth} id="4"/>
                     </div>
                 </div>
             </div>
@@ -84,12 +84,12 @@ export function LiveAuctionsScroll() {
                 </div>
                 <div className="closed-cara">
                     <Carousel responsive={responsive}>
-                        <CardScroll  price="0.21 BTC" type={btc} />
-                        <CardScroll  price="0.158 ETH" type={eth}/>
-                        <CardScroll  price="0.21 BTC" type={btc}/>
-                        <CardScroll  price="0.21 BTC" type={btc} />
-                        <CardScroll  price="0.158 ETH" type={eth}/>
-                        <CardScroll  price="0.21 BTC" type={btc}/>
+                        <CardScroll  price="0.21 BTC" type={btc}  id="5"/>
+                        <CardScroll  price="0.158 ETH" type={eth} id="6"/>
+                        <CardScroll  price="0.21 BTC" type={btc} id="5"/>
+                        <CardScroll  price="0.21 BTC" type={btc}  id="5"/>
+                        <CardScroll  price="0.158 ETH" type={eth} id="6"/>
+                        <CardScroll  price="0.21 BTC" type={btc} id="5"/>
                     </Carousel>    
                 </div>
             </div>

@@ -57,7 +57,7 @@ function MyTimer({ expiryTimestamp }) {
   }
 
 
-export default function Cards({img,price,type,date}) {
+export default function Cards({img,price,type,date,id=5}) {
     const time = new Date();
     var startDate = new Date(); // Current date now.
     var endDate = new Date(2022 , 0 , 31 , 0, 0, 0, 0); // end time
@@ -84,7 +84,7 @@ export default function Cards({img,price,type,date}) {
                     <b>Bid Fee :</b> 20 SOLO
                 </div>
             </div>
-            <Link to="/bid-now">
+            <Link to={"/bid-now/"+id}>
             <div className="auction-btn">
                 BID NOW
             </div>
@@ -94,7 +94,7 @@ export default function Cards({img,price,type,date}) {
 }
 
 
-export function CardScroll({img,price,type,date}) {
+export function CardScroll({img,price,type,date,id=5}) {
     const time = new Date();
     var startDate = new Date(); // Current date now.
     var endDate = new Date(2021 , 11 , 31 , 0, 0, 0, 0); // end time
@@ -121,7 +121,7 @@ export function CardScroll({img,price,type,date}) {
                     <b>Bid Fee :</b> 20 SOLO
                 </div>
             </div>
-            <Link to="/bid-now">
+            <Link to={`/bid-now/${id}`}>
             <div className="auction-btn">
                 BID NOW
             </div>

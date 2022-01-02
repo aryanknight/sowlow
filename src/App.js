@@ -24,7 +24,7 @@ function App() {
       <Route exact path="/faq" element={<FAQPage/>} />
       <Route exact path="/user" element={<LoginBiddingPage/>} />
       <Route exact path="/user-panel" element={<UserPage/>} />
-      <Route exact path="/bid-now" element={<BidNowPage/>} />
+      <Route exact path="/bid-now/:id" element={<BidNowPage/>} />
       <Route exact path="/privacy-policy" element={<PrivacyPage/>} />
       <Route exact path="/terms" element={<TermsPage/>} />
     </Routes>  

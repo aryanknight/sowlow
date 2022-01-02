@@ -1,6 +1,8 @@
 import { Paper, TextField } from '@mui/material';
 import React from 'react';
-import Btc from '../../Images/btc1.png'
+import Btc from '../../Images/btc1.png';
+import { useParams } from 'react-router-dom';
+import nftList from '../data.js';
 import './BidNow.css';
 
 import { useTimer } from "react-timer-hook";
@@ -71,9 +73,16 @@ export default function BidNow() {
 
     const time = new Date();
     var startDate = new Date(); // Current date now.
-    var endDate = new Date(2021 , 11 , 31 , 0, 0, 0, 0); // end time
+    var endDate = new Date(2022 , 0 , 31 , 0, 0, 0, 0); // end time
     var timeDiff = (endDate-startDate)/1000; 
     time.setSeconds(time.getSeconds() + timeDiff);
+    const {id}=useParams();
+
+    const [nftData,setNftData] = React.useState({})
+
+    React.useEffect(()=>{
+        setNftData (nftList.find(nft => nft.id==id));
+    },[]);
 
     return (
         <div className="bid-now-cont" id="bid-now">
@@ -89,18 +98,18 @@ export default function BidNow() {
                         <Paper elevation={3}>
                             <div className="bid-now-cont-1" style={{marginTop:'40px'}}>
                                 <div className="bid-now-left">
-                                    <img src={Btc} alt="" className="bid-now-img" />
+                                    <img src={nftData?.src} alt="" className="bid-now-img" />
                                 </div>
                                 <div className="bid-now-right">
                                     <div className="bid-now-head">
-                                        0.215 BTC
+                                        {nftData?.price}
                                     </div>
                                     <div className="bid-now-fees-cont">
                                         <div className="bid-now-fee">
                                             <b>Bidding Fee : &nbsp;</b> 20 SOLO
                                         </div>
                                         <div className="bid-now-price">
-                                            <b>Price : &nbsp;</b> 0.215BTC
+                                            <b>Price : &nbsp;</b> {nftData?.price}
                                         </div>
                                     </div>
 
