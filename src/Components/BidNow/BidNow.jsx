@@ -125,7 +125,7 @@ export default function BidNow() {
                                         <div className="currently-bid-head">
                                             Bidding Price
                                         </div>
-                                        <TextField label="Bidding Price" placeholder='0.21 BTC' fullWidth/>
+                                        <TextField placeholder='0.21 BTC' fullWidth/>
                                         <button className="bid-now-button">
                                             Bid Now
                                         </button>
